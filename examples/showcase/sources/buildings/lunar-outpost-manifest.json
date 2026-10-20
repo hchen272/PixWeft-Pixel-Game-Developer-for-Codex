@@ -1,0 +1,94 @@
+{
+  "id": "lunar-outpost",
+  "creation_route": "generated-draft-refine",
+  "input": "lunar-outpost-generated.png",
+  "input_dimensions": [
+    1536,
+    1024
+  ],
+  "logical_canvas": [
+    384,
+    256
+  ],
+  "frames": 8,
+  "fps": 4,
+  "layers": [
+    "Generated raster base with fixed complete mast and collar",
+    "Window light pulse - native pixel corrections",
+    "Radar bowl - pose draft refined at the joint",
+    "Pitch socket - per-pose native pixel retouch"
+  ],
+  "method": "Imported the selected building at uniform 1/4 nearest-neighbor scale and corrected alpha. The complete tapered mast and elliptical collar stay fixed; every bowl pose is finished with native socket contour and material retouch. The neutral pose preserves the alpha-cleaned input outside joint_review_region; the joint region is also corrected in that pose. No architectural redraw.",
+  "native_alpha_and_dish_extraction_pixel_edits": 92329,
+  "imported_partial_alpha_pixels": 48122,
+  "imported_hidden_rgb_pixels": 44207,
+  "animated_light_pixels": 417,
+  "radar": {
+    "source_pixels": 4234,
+    "pivot": [
+      256,
+      76
+    ],
+    "angles_degrees": [
+      0,
+      -2,
+      -4,
+      -2,
+      0,
+      2,
+      4,
+      2
+    ],
+    "pose_draft": "nearest-neighbor bowl pose, followed by native joint contour and material retouch",
+    "joint_retouch_pixels": [
+      43,
+      48,
+      54,
+      48,
+      43,
+      47,
+      52,
+      47
+    ],
+    "joint_review_region": [
+      238,
+      64,
+      48,
+      34
+    ],
+    "fixed_parts": [
+      "complete tapered mast",
+      "elliptical collar",
+      "mount base",
+      "roof",
+      "hull",
+      "supports"
+    ]
+  },
+  "preserved_parts": [
+    "dish",
+    "antennae",
+    "solar panel",
+    "airlock",
+    "stairs",
+    "supports",
+    "pipes",
+    "windows"
+  ],
+  "palette_policy": "No artistic color-count cap; GIF global palette is a format encoding constraint.",
+  "native_frame_rgba_sha256": [
+    "327950cd40ba3937cba6ddfd84fe15e975860f3dde0a0c7ab7f2df6ff0552f49",
+    "facb03b03514356fc65e96ed8b161410a6560c332ee87d65cd6dcd93368bc173",
+    "465b353de17d0d60f8316cd835f90b76ac1528fc57c8a94abbf5b643be4d711c",
+    "facb03b03514356fc65e96ed8b161410a6560c332ee87d65cd6dcd93368bc173",
+    "327950cd40ba3937cba6ddfd84fe15e975860f3dde0a0c7ab7f2df6ff0552f49",
+    "46c1f60044063bbe03cece1729b5681a1adece3618ab71b63f8f63d3dae7c6f2",
+    "adebc23efe7e99d1660d6ad1a3a743c8addfd255025cddba0b8feb62ea048bda",
+    "46c1f60044063bbe03cece1729b5681a1adece3618ab71b63f8f63d3dae7c6f2"
+  ],
+  "source_sha256": "38ef1ec42fe18d046af58e25bc89e221ab411bca6ad7f67e01e64d011c18f29d",
+  "sheet_sha256": "4b1fa29afa3f27173a548df026aa80d2e1848eaee3bef6b4b8a92bf785084dbb",
+  "gif_sha256": "cd7cb909ac6cfa99179ef468d5ce4016679a15805b0762f98ad313fcb088bdf8",
+  "source_roundtrip_rgba_equal": true,
+  "visual_review": "Independent read-only review inspected all eight native joint crops at 12x, all eight actual GIF-decoded joint crops in temporal order, a decoded whole-frame extreme, and the frame 7-to-0 loop boundary. No remaining reported mast/collar fracture, flat gray notch, or unexplained support ledge was found within joint_review_region. The tapered mast and collar retain their contours while the bowl changes pitch around its socket. GIF timing is eight 250 ms frames, totaling two seconds. This is a focused joint appearance review; source fidelity and runtime integration remain separate evidence."
+}

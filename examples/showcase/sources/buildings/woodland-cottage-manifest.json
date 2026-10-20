@@ -1,0 +1,445 @@
+{
+  "asset": "Woodland cottage",
+  "method": "Exact user-selected high-quality generated cottage imported through real Pixelorama document.import_sheet 1x1, preserved as a static base raster. Native alpha/fringe cleanup retains opaque source RGB. Small separate native layer adds gentle chimney smoke and candle/window modulation only. No replacement redraw.",
+  "creation_route": "generated-draft-refine",
+  "source_image": "woodland-cottage-generated.png",
+  "source_sha256": "c430e11a9ced69332884481f333bf1ad6f37a667f7a5c6abe213ab7f684097c9",
+  "native_canvas": [
+    256,
+    256
+  ],
+  "frames": 8,
+  "fps": 8,
+  "preview_scale": 2,
+  "application": {
+    "api_version": 8,
+    "bridge": "pixel-game",
+    "bridge_version": "0.1.0",
+    "engine": "4.6.2-stable (official)",
+    "operations": [
+      "app.info",
+      "document.info",
+      "document.create",
+      "document.open_image",
+      "document.import_sheet",
+      "document.open_project",
+      "document.save",
+      "document.export_png",
+      "document.export_sheet",
+      "document.preview",
+      "document.patch_pixels",
+      "document.add_frame",
+      "document.add_layer",
+      "document.palette",
+      "document.set_animation_fps"
+    ],
+    "pixelorama_version": "v1.1.10-stable"
+  },
+  "preferences_isolated": true,
+  "native_layers": [
+    {
+      "name": "Layer 1",
+      "type": null
+    },
+    {
+      "name": "Chimney smoke and window candlelight",
+      "type": null
+    }
+  ],
+  "static_base_identical_across_frames": true,
+  "alpha_cleanup": {
+    "near_transparent_or_hidden_rgb_pixels_cleared": 1648,
+    "foreground_alpha_solidified": 32489,
+    "rgb_remapped": false
+  },
+  "uniform_source_to_native_scale": 0.20414673046251994,
+  "native_source_roundtrip": true,
+  "production": [
+    {
+      "frame": 0,
+      "base_rgba_sha256": "198eeb514a17ccb6999d1d608fb10d346f5390740053f1a94cbf8590f0ab5033",
+      "whole_frame_rgba_sha256": "4e11738d2dfd35a1bbe658f5be646a33b663fbebe62759cf478679d2a373e524",
+      "fx_notes": {
+        "window_pixels": 518,
+        "smoke_pixels": 47,
+        "fx_pixels_total": 565
+      },
+      "bbox": [
+        22,
+        6,
+        239,
+        236
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0
+    },
+    {
+      "frame": 1,
+      "base_rgba_sha256": "198eeb514a17ccb6999d1d608fb10d346f5390740053f1a94cbf8590f0ab5033",
+      "whole_frame_rgba_sha256": "e5e02249b2fa9fe03bb13b4f829cd30916f14401860cca741a4b90772cba88b2",
+      "fx_notes": {
+        "window_pixels": 518,
+        "smoke_pixels": 47,
+        "fx_pixels_total": 565
+      },
+      "bbox": [
+        22,
+        3,
+        239,
+        236
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0
+    },
+    {
+      "frame": 2,
+      "base_rgba_sha256": "198eeb514a17ccb6999d1d608fb10d346f5390740053f1a94cbf8590f0ab5033",
+      "whole_frame_rgba_sha256": "1f4bdbe6cd91cb8964a2fe546060773287654ed40364e58035e4d6c8610a9d70",
+      "fx_notes": {
+        "window_pixels": 518,
+        "smoke_pixels": 23,
+        "fx_pixels_total": 541
+      },
+      "bbox": [
+        22,
+        9,
+        239,
+        236
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0
+    },
+    {
+      "frame": 3,
+      "base_rgba_sha256": "198eeb514a17ccb6999d1d608fb10d346f5390740053f1a94cbf8590f0ab5033",
+      "whole_frame_rgba_sha256": "c208aba6555491de7b9c1ded8d3f3aa64fab5b1a97a51cb5550146541aaf4b86",
+      "fx_notes": {
+        "window_pixels": 518,
+        "smoke_pixels": 47,
+        "fx_pixels_total": 565
+      },
+      "bbox": [
+        22,
+        6,
+        239,
+        236
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0
+    },
+    {
+      "frame": 4,
+      "base_rgba_sha256": "198eeb514a17ccb6999d1d608fb10d346f5390740053f1a94cbf8590f0ab5033",
+      "whole_frame_rgba_sha256": "2fe35c7b65fa1d4a677699c2b8c99d9001467a37cea81e499d49e17223444f64",
+      "fx_notes": {
+        "window_pixels": 518,
+        "smoke_pixels": 47,
+        "fx_pixels_total": 565
+      },
+      "bbox": [
+        22,
+        3,
+        239,
+        236
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0
+    },
+    {
+      "frame": 5,
+      "base_rgba_sha256": "198eeb514a17ccb6999d1d608fb10d346f5390740053f1a94cbf8590f0ab5033",
+      "whole_frame_rgba_sha256": "aa5b3c578feefaa2018b099c49d42e189b9db0abf4929be4c17fb0de9c4b9764",
+      "fx_notes": {
+        "window_pixels": 518,
+        "smoke_pixels": 31,
+        "fx_pixels_total": 549
+      },
+      "bbox": [
+        22,
+        9,
+        239,
+        236
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0
+    },
+    {
+      "frame": 6,
+      "base_rgba_sha256": "198eeb514a17ccb6999d1d608fb10d346f5390740053f1a94cbf8590f0ab5033",
+      "whole_frame_rgba_sha256": "765f226440b46a029490cfd100baf033585287b7e905ba388138c605f9966c9c",
+      "fx_notes": {
+        "window_pixels": 518,
+        "smoke_pixels": 47,
+        "fx_pixels_total": 565
+      },
+      "bbox": [
+        22,
+        6,
+        239,
+        236
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0
+    },
+    {
+      "frame": 7,
+      "base_rgba_sha256": "198eeb514a17ccb6999d1d608fb10d346f5390740053f1a94cbf8590f0ab5033",
+      "whole_frame_rgba_sha256": "5165548107655b0002908e5b8761df005a49e156b2e54a5ee7900f69258e74c2",
+      "fx_notes": {
+        "window_pixels": 518,
+        "smoke_pixels": 47,
+        "fx_pixels_total": 565
+      },
+      "bbox": [
+        22,
+        3,
+        239,
+        236
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0
+    }
+  ],
+  "hashes": {
+    "examples/showcase/sources/buildings/woodland-cottage.pxo": "fa585c79e6bda0459cdd562af15c7c6dadb7e125a84c0744d639098afd2d836f",
+    "assets/showcase/buildings/woodland-cottage-sheet.png": "d92d701344aae63da302eb23a69efa1943ede6cecb632be91e411fafe2b52de7",
+    "assets/showcase/buildings/woodland-cottage.png": "bbe3f4357247a3b9fff7f8015e67deb60acff2ae1ec9ded639325aae94bdf9bd",
+    "assets/showcase/buildings/woodland-cottage.gif": "218305b7a0267c3782500597f5236b913da0d08403cc78e89c72ee6019644288",
+    "examples/showcase/sources/buildings/woodland-cottage-generated.png": "c430e11a9ced69332884481f333bf1ad6f37a667f7a5c6abe213ab7f684097c9"
+  },
+  "checks": [
+    {
+      "operation": "document.import_sheet",
+      "ok": true
+    },
+    {
+      "operation": "document.set_animation_fps",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.add_frame",
+      "ok": true
+    },
+    {
+      "operation": "document.add_frame",
+      "ok": true
+    },
+    {
+      "operation": "document.add_frame",
+      "ok": true
+    },
+    {
+      "operation": "document.add_frame",
+      "ok": true
+    },
+    {
+      "operation": "document.add_frame",
+      "ok": true
+    },
+    {
+      "operation": "document.add_frame",
+      "ok": true
+    },
+    {
+      "operation": "document.add_frame",
+      "ok": true
+    },
+    {
+      "operation": "document.add_layer",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.save",
+      "ok": true
+    },
+    {
+      "operation": "document.export_sheet",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.export_sheet",
+      "ok": true
+    },
+    {
+      "operation": "document.open_project",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    }
+  ],
+  "limits": [
+    "Generated base is flattened raster; no claim of recovered architectural source layers.",
+    "GIF uses its 256-color format palette. PNG/PXO retain uncapped RGB.",
+    "No Godot in-game integration is claimed for these isolated showcase exports."
+  ]
+}

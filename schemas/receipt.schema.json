@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PixWeft operation receipt",
+  "type": "object",
+  "required": ["schema_version", "run_id", "operation", "status", "started_at", "project_root"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "run_id": { "type": "string" },
+    "operation": { "type": "string" },
+    "status": { "enum": ["running", "completed", "failed", "unknown"] },
+    "started_at": { "type": "string" },
+    "completed_at": { "type": "string" },
+    "project_root": { "type": "string" },
+    "plugin_version": { "type": "string" },
+    "project_file_sha256": { "type": ["string", "null"] },
+    "args": { "type": "object" },
+    "result": { "type": "object" }
+  },
+  "description": "An operation receipt is not an approval of asset quality or a full gameplay pass. Dependency freshness requires the task's relevant source revisions."
+}

@@ -1,0 +1,15 @@
+{
+  "asset": "Woodland cottage",
+  "source_file": "woodland-cottage-generated.png",
+  "source_sha256": "c430e11a9ced69332884481f333bf1ad6f37a667f7a5c6abe213ab7f684097c9",
+  "source_dimensions": [
+    1254,
+    1254
+  ],
+  "original_generation_prompt": "Use case: stylized-concept, production game sprite. Create ONE beautiful standalone woodland cottage building for the PixWeft pixel-game-development plugin README showcase. It is a real pixel-art game asset, drawn with deliberate hard-edged pixel clusters, consistent square pixels, crisp stepped silhouettes and readable pixel-made materials, NOT a smooth illustration with a pixel filter. Style: warm, charming, chunky storybook pixel art, tasteful rich colors with no numerical palette restriction. A compact European timber-and-plaster cottage with a steep moss-green shingle roof, small brick chimney, glowing amber windows, a complete rounded wooden door and stone doorstep, a tiny attached flower box and a few foundation plants. Show the complete building, complete chimney, roof, eaves, door, foundation and every attached detail. Three-quarter orthographic game view, see front and right side, coherent roof perspective. Single isolated building only, no large landscape or tile plate. Composition: center subject with generous transparent clearance on all sides and above the chimney. Target editable canvas 256 x 256 pixels; intended final display 512 x 512 nearest-neighbor. Render as an exact clean enlarged pixel-art design, with no antialiasing or soft photographic textures. Lighting is part of pixel clusters; avoid cast shadows outside the small foundation silhouette. Genuine transparent background with clean alpha, no checkerboard, backdrop, text, logo, watermark, border, diagram, caption, or extra building.",
+  "selection": "User explicitly selected this exact generated cottage and requested preserving it instead of replacing it with reference-led architectural redraw.",
+  "new_image_generation_in_this_refinement": false,
+  "creation_route": "cleanup-import",
+  "native_editing": "Real Pixelorama 1x1 import to256²; retain all generated architecture and material details, native alpha cleanup, then fixed generated base plus small native smoke/window FX layer.",
+  "scope": "No replacement redraw; no fixed art palette cap; no imported prior game project settings."
+}

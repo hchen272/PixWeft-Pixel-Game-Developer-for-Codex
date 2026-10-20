@@ -1,0 +1,8 @@
+{
+  "name": "pixweft",
+  "version": "0.1.0",
+  "description": "A Codex plugin for building pixel games with Godot and Pixelorama, from ideas and AI-assisted art to gameplay, playtesting, and iteration.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "requires_local_executor": true
+}

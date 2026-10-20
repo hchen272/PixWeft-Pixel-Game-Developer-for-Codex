@@ -1,0 +1,20 @@
+{
+  "name": "pixweft",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A Codex plugin for building pixel games with Godot and Pixelorama, from ideas and AI-assisted art to gameplay, playtesting, and iteration.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node mcp/server.mjs",
+    "doctor": "node scripts/cli.mjs doctor",
+    "validate": "node scripts/validate-package.mjs",
+    "build:pixelorama": "node scripts/build-pixelorama.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1"
+  }
+}

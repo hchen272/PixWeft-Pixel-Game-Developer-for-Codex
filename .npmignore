@@ -1,0 +1,33 @@
+node_modules/
+.local/
+test-results/
+**/.godot/
+**/.pixel-game/
+bridges/pixelorama/build/
+*.log
+*.tmp
+
+# Private local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.*.example
+!.env.*.sample
+pixel-game-bridge.json
+
+# Generated distribution and coverage output
+/build/
+/dist/
+/exports/
+/coverage/
+*.tgz
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.bak
+*.swp
+*.swo
+*~

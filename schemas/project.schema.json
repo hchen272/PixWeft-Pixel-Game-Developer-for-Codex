@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PixWeft project configuration",
+  "type": "object",
+  "required": ["schema_version"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "project_id": { "type": "string" },
+    "project_root": { "type": "string", "description": "Informational relative location; calls explicitly choose the actual project root." },
+    "tools": {
+      "type": "object",
+      "properties": {
+        "godot_path": { "type": ["string", "null"] },
+        "pixelorama_path": { "type": ["string", "null"] },
+        "pixelorama_url": { "type": ["string", "null"] },
+        "pixelorama_token": { "type": ["string", "null"], "description": "Prefer the environment or ignored project.local.json." }
+      },
+      "additionalProperties": false
+    },
+    "visual": { "type": "object", "description": "Only project-adopted creative choices. No perspective, palette, canvas, or animation defaults are imposed." },
+    "scene": { "type": "object", "description": "Project-owned construction choices; mixed and custom strategies are allowed." }
+  },
+  "additionalProperties": true
+}

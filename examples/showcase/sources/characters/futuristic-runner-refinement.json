@@ -1,0 +1,365 @@
+{
+  "scope": "Asset-specific corrective production; not plugin defaults.",
+  "source": "futuristic-runner-generated.png",
+  "logical_canvas": [
+    160,
+    160
+  ],
+  "frames": 8,
+  "fps": 10,
+  "import": {
+    "operation": "document.import_sheet",
+    "columns": 4,
+    "rows": 2,
+    "source_dimensions": [
+      1774,
+      887
+    ],
+    "frame_dimensions": [
+      160,
+      160
+    ],
+    "interpolation": "nearest",
+    "palette_remapped": false
+  },
+  "registration": [
+    {
+      "frame": 0,
+      "root_source": [
+        76,
+        86
+      ],
+      "eye_source": [
+        97,
+        34
+      ],
+      "root_target": [
+        78,
+        88
+      ],
+      "scale": 0.9,
+      "head_horizontal_displacement": -0.9000000000000021,
+      "native_base_pixel_writes": 5018,
+      "method": "Nearest-neighbor row-wise draft registration; preserve distinct limb poses, stabilize the pelvis and face without switching character view."
+    },
+    {
+      "frame": 1,
+      "root_source": [
+        80,
+        86
+      ],
+      "eye_source": [
+        96,
+        34
+      ],
+      "root_target": [
+        78,
+        90
+      ],
+      "scale": 0.9,
+      "head_horizontal_displacement": 3.5999999999999996,
+      "native_base_pixel_writes": 3999,
+      "method": "Nearest-neighbor row-wise draft registration; preserve distinct limb poses, stabilize the pelvis and face without switching character view."
+    },
+    {
+      "frame": 2,
+      "root_source": [
+        76,
+        87
+      ],
+      "eye_source": [
+        101,
+        37
+      ],
+      "root_target": [
+        78,
+        88
+      ],
+      "scale": 0.9,
+      "head_horizontal_displacement": -4.5,
+      "native_base_pixel_writes": 4445,
+      "method": "Nearest-neighbor row-wise draft registration; preserve distinct limb poses, stabilize the pelvis and face without switching character view."
+    },
+    {
+      "frame": 3,
+      "root_source": [
+        81,
+        86
+      ],
+      "eye_source": [
+        106,
+        34
+      ],
+      "root_target": [
+        78,
+        86
+      ],
+      "scale": 0.9,
+      "head_horizontal_displacement": -4.5,
+      "native_base_pixel_writes": 4935,
+      "method": "Nearest-neighbor row-wise draft registration; preserve distinct limb poses, stabilize the pelvis and face without switching character view."
+    },
+    {
+      "frame": 4,
+      "root_source": [
+        77,
+        88
+      ],
+      "eye_source": [
+        97,
+        33
+      ],
+      "root_target": [
+        78,
+        88
+      ],
+      "scale": 0.9,
+      "head_horizontal_displacement": 0,
+      "native_base_pixel_writes": 4931,
+      "method": "Nearest-neighbor row-wise draft registration; preserve distinct limb poses, stabilize the pelvis and face without switching character view."
+    },
+    {
+      "frame": 5,
+      "root_source": [
+        80,
+        89
+      ],
+      "eye_source": [
+        97,
+        35
+      ],
+      "root_target": [
+        78,
+        90
+      ],
+      "scale": 0.9,
+      "head_horizontal_displacement": 2.6999999999999993,
+      "native_base_pixel_writes": 4030,
+      "method": "Nearest-neighbor row-wise draft registration; preserve distinct limb poses, stabilize the pelvis and face without switching character view."
+    },
+    {
+      "frame": 6,
+      "root_source": [
+        75,
+        88
+      ],
+      "eye_source": [
+        97,
+        33
+      ],
+      "root_target": [
+        78,
+        88
+      ],
+      "scale": 0.9,
+      "head_horizontal_displacement": -1.8000000000000007,
+      "native_base_pixel_writes": 4405,
+      "method": "Nearest-neighbor row-wise draft registration; preserve distinct limb poses, stabilize the pelvis and face without switching character view."
+    },
+    {
+      "frame": 7,
+      "root_source": [
+        77,
+        86
+      ],
+      "eye_source": [
+        100,
+        34
+      ],
+      "root_target": [
+        78,
+        86
+      ],
+      "scale": 0.9,
+      "head_horizontal_displacement": -2.6999999999999993,
+      "native_base_pixel_writes": 4863,
+      "method": "Nearest-neighbor row-wise draft registration; preserve distinct limb poses, stabilize the pelvis and face without switching character view."
+    }
+  ],
+  "identity_and_hand_cleanup": [
+    {
+      "frame": 0,
+      "canonical_face_pixels": 1461,
+      "old_head_pixels_cleared": 1461,
+      "near_knee_coralmaker": [
+        103,
+        107
+      ],
+      "near_glove_chevron": [
+        44,
+        79
+      ],
+      "authored_outline_pixels": 0
+    },
+    {
+      "frame": 1,
+      "canonical_face_pixels": 1461,
+      "old_head_pixels_cleared": 1409,
+      "near_knee_coralmaker": [
+        92,
+        113
+      ],
+      "near_glove_chevron": [
+        73,
+        84
+      ],
+      "authored_outline_pixels": 0
+    },
+    {
+      "frame": 2,
+      "canonical_face_pixels": 1461,
+      "old_head_pixels_cleared": 1382,
+      "near_knee_coralmaker": [
+        75,
+        110
+      ],
+      "near_glove_chevron": [
+        109,
+        63
+      ],
+      "authored_outline_pixels": 5
+    },
+    {
+      "frame": 3,
+      "canonical_face_pixels": 1461,
+      "old_head_pixels_cleared": 1438,
+      "near_knee_coralmaker": [
+        55,
+        102
+      ],
+      "near_glove_chevron": [
+        111,
+        61
+      ],
+      "authored_outline_pixels": 2
+    },
+    {
+      "frame": 4,
+      "canonical_face_pixels": 1461,
+      "old_head_pixels_cleared": 1541,
+      "near_knee_coralmaker": [
+        58,
+        106
+      ],
+      "near_glove_chevron": [
+        114,
+        62
+      ],
+      "authored_outline_pixels": 0
+    },
+    {
+      "frame": 5,
+      "canonical_face_pixels": 1461,
+      "old_head_pixels_cleared": 1454,
+      "near_knee_coralmaker": [
+        61,
+        113
+      ],
+      "near_glove_chevron": [
+        73,
+        84
+      ],
+      "authored_outline_pixels": 0
+    },
+    {
+      "frame": 6,
+      "canonical_face_pixels": 1461,
+      "old_head_pixels_cleared": 1500,
+      "near_knee_coralmaker": [
+        93,
+        97
+      ],
+      "near_glove_chevron": [
+        44,
+        79
+      ],
+      "authored_outline_pixels": 0
+    },
+    {
+      "frame": 7,
+      "canonical_face_pixels": 1461,
+      "old_head_pixels_cleared": 1494,
+      "near_knee_coralmaker": [
+        101,
+        105
+      ],
+      "near_glove_chevron": [
+        43,
+        79
+      ],
+      "authored_outline_pixels": 3
+    }
+  ],
+  "identity_method": "Frame zero generated head, native re-layered onto all eight distinct motion poses; same recognizable face/earpiece/hair, with contact/down/flight body bounce.",
+  "arm_phase_native_finishing": [
+    {
+      "frame": 2,
+      "near_arm": "Visible shoulder [78,58] through elbow [104,75] to existing forward fist. Bright crossing sleeve overlays torso.",
+      "far_arm": "Original rearward limb retained, receded to far-side shadow with shoulder attachment occluded by torso and near sleeve.",
+      "pixel_writes": 304
+    },
+    {
+      "frame": 3,
+      "near_arm": "Visible shoulder [78,58] through elbow [104,75] to existing forward fist. Bright crossing sleeve overlays torso.",
+      "far_arm": "Original rearward limb retained, receded to far-side shadow with shoulder attachment occluded by torso and near sleeve.",
+      "pixel_writes": 277
+    },
+    {
+      "frame": 4,
+      "near_arm": "Visible shoulder [78,58] through elbow [104,75] to existing forward fist. Bright crossing sleeve overlays torso.",
+      "far_arm": "Original rearward limb retained, receded to far-side shadow with shoulder attachment occluded by torso and near sleeve.",
+      "pixel_writes": 241
+    }
+  ],
+  "temporal_review": [
+    {
+      "frame": 0,
+      "near_leg": "Forward heel contact",
+      "near_arm": "Back",
+      "next": "Near foot accepts weight, knee flexes; near arm travels from rear toward passing."
+    },
+    {
+      "frame": 1,
+      "near_leg": "Compression under body",
+      "near_arm": "Passing below the hip",
+      "next": "Near leg passes backward under the pelvis while the far knee lifts; near sleeve begins crossing forward."
+    },
+    {
+      "frame": 2,
+      "near_leg": "Push behind body",
+      "near_arm": "Forward crossing sleeve",
+      "next": "Near knee continues behind; far shin starts extending forward. Near arm holds its forward extreme briefly."
+    },
+    {
+      "frame": 3,
+      "near_leg": "Folded back during flight",
+      "near_arm": "Forward crossing sleeve",
+      "next": "Far foot lands; the near folded leg remains behind, no torso side change."
+    },
+    {
+      "frame": 4,
+      "near_leg": "Back as far foot lands",
+      "near_arm": "Forward crossing sleeve",
+      "next": "Near heel recovers forward; near fist lowers toward passing."
+    },
+    {
+      "frame": 5,
+      "near_leg": "Folded recovery behind pelvis",
+      "near_arm": "Passing below the hip",
+      "next": "Near knee rises in front; near arm continues rearward. This passing silhouette resembles frame1, with opposite temporal direction."
+    },
+    {
+      "frame": 6,
+      "near_leg": "Forward knee lift",
+      "near_arm": "Back",
+      "next": "Near shin extends for landing while far leg folds behind."
+    },
+    {
+      "frame": 7,
+      "near_leg": "Forward reach before contact",
+      "near_arm": "Back",
+      "next": "Loop to frame0: near heel lands; same side/face retained, no swap of near/far identity."
+    }
+  ],
+  "source_roundtrip": "Eight native composite RGBA hashes match the exported frame PNGs after save/reopen in Pixelorama. The final metadata-cleaned source was also opened in a fresh private Pixelorama process and re-exported to RGBA equal to the public sheet; see ../source-verification.json. This source-fidelity result is separate from the visual motion review."
+}

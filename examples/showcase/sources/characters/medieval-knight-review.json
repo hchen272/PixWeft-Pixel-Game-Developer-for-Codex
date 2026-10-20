@@ -1,0 +1,85 @@
+{
+  "ok": true,
+  "decoded_gif": {
+    "dimensions": [
+      384,
+      384
+    ],
+    "frames": 8,
+    "distinct_decoded_frames": 8,
+    "delays_ms": [
+      130,
+      120,
+      130,
+      120,
+      130,
+      120,
+      130,
+      120
+    ],
+    "loop_duration_ms": 1000,
+    "alpha_differences_from_native_2x": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "gif_palette_color_error": [
+      {
+        "max_channel_error": 45,
+        "mean_channel_error": 3.188
+      },
+      {
+        "max_channel_error": 43,
+        "mean_channel_error": 2.975
+      },
+      {
+        "max_channel_error": 55,
+        "mean_channel_error": 3.096
+      },
+      {
+        "max_channel_error": 42,
+        "mean_channel_error": 3.016
+      },
+      {
+        "max_channel_error": 46,
+        "mean_channel_error": 2.955
+      },
+      {
+        "max_channel_error": 35,
+        "mean_channel_error": 3.139
+      },
+      {
+        "max_channel_error": 41,
+        "mean_channel_error": 3.173
+      },
+      {
+        "max_channel_error": 40,
+        "mean_channel_error": 3.225
+      }
+    ]
+  },
+  "native_source": {
+    "fps": 8,
+    "frames": 8,
+    "layers": 2
+  },
+  "visual_review": {
+    "inspected": "All eight native-exported frames in the 2x contact sheet.",
+    "findings": [
+      "Full helmet, both boots, cape and complete weapon remain inside each frame.",
+      "Windback, overhead preparation, strike extension, low follow-through and recovery are visually distinct.",
+      "Armor, tabard, sun motif and cape identity remain consistent.",
+      "Boot baselines are aligned to native y174; body movement comes from generated anatomy and cloth poses, not whole-image drift."
+    ],
+    "limits": [
+      "The eight poses are generated animation keyframes with native refinement, not anatomically layered hand-painted animation.",
+      "GIF color approximation is documented separately from lossless native PNG/PXO exports.",
+      "No Godot in-game integration or playtest is claimed."
+    ]
+  }
+}

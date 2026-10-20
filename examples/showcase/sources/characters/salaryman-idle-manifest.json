@@ -1,0 +1,213 @@
+{
+  "id": "salaryman-idle",
+  "title": "Overtime, one more coffee",
+  "creation_route": "generated-draft-refine",
+  "logical_canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "frames": 8,
+  "fps": 8,
+  "display_scale": 2,
+  "view": "front three-quarter",
+  "motion": "Grounded upper-body breathing (0 to 2 logical pixels), small coffee-hand rise, and a slow blink; shoes remain fixed.",
+  "generated_input": "Built-in image generation: approved full-body design followed by a pixel-art draft. Original design and draft retained privately.",
+  "generated_draft_sha256": "570b7b735dae7da2cf51dd2a9905dc751241d04e8db8dd3fbc4728f4f5328978",
+  "native_edits": {
+    "alpha_pixels_normalized": 5425,
+    "isolated_pixels_removed": 0,
+    "method": "Native Pixelorama pixel edits repair edge alpha and isolated specks; per-frame upper-body row deformation and hand/torso motion preserve the generated costume; a separate native blink layer refines eyelids. No full blank-canvas redraw or separate limb-layer claim.",
+    "eye_repair": {
+      "reason": "Review found unclear eye contours and heavy blink bands.",
+      "changes": "Warm separate eyebrows; thin eyelash contours; readable warm sclera and connected pupils; lighter half-blink and closed-lid clusters. Nose bridge stays clear, no glasses added.",
+      "per_frame": [
+        {
+          "frame": 0,
+          "native_pixels_authored": 46,
+          "blink": "open",
+          "body_layer_unchanged": true
+        },
+        {
+          "frame": 1,
+          "native_pixels_authored": 46,
+          "blink": "open",
+          "body_layer_unchanged": true
+        },
+        {
+          "frame": 2,
+          "native_pixels_authored": 46,
+          "blink": "open",
+          "body_layer_unchanged": true
+        },
+        {
+          "frame": 3,
+          "native_pixels_authored": 46,
+          "blink": "open",
+          "body_layer_unchanged": true
+        },
+        {
+          "frame": 4,
+          "native_pixels_authored": 46,
+          "blink": "half",
+          "body_layer_unchanged": true
+        },
+        {
+          "frame": 5,
+          "native_pixels_authored": 46,
+          "blink": "closed",
+          "body_layer_unchanged": true
+        },
+        {
+          "frame": 6,
+          "native_pixels_authored": 46,
+          "blink": "half",
+          "body_layer_unchanged": true
+        },
+        {
+          "frame": 7,
+          "native_pixels_authored": 46,
+          "blink": "open",
+          "body_layer_unchanged": true
+        }
+      ]
+    }
+  },
+  "layers": [
+    "Imported generated base with native contour and breathing-pose edits",
+    "Native brows, eyes and blink refinement"
+  ],
+  "source": "examples/showcase/sources/characters/salaryman-idle.pxo",
+  "sheet": "assets/showcase/characters/salaryman-idle-sheet.png",
+  "preview": "assets/showcase/characters/salaryman-idle.gif",
+  "source_sha256": "7db12c19bc9b4b15363d0f05679985d65ce2d479e9ea87f6e0952bcb3f7af6ff",
+  "sheet_sha256": "66c9c36f8e82f71831b45aa96821760fedd6fc931a764493d0ffa4d6203c9acf",
+  "gif_sha256": "bb51c4f9d32c543f06d6195c64a77873a4867d4e79226bf81d2cbd90f2538bb2",
+  "native_application": {
+    "pixelorama": "v1.1.10-stable",
+    "api": 8
+  },
+  "native_source_roundtrip_identical": true,
+  "review": {
+    "all_frames_exported_and_pixel_compared": true,
+    "feet_fixed": true,
+    "no_canvas_edge_clipping": true,
+    "frame_stats": [
+      {
+        "frame": 0,
+        "upper_body_rise": 0,
+        "blink": "open",
+        "visible_pixels": 4998,
+        "bounds": [
+          51,
+          5,
+          108,
+          158
+        ],
+        "feet_fixed": true,
+        "hash": "60f116f9eea6e837fa15d033210096a87e1e65805d8d3c775b5f832961fb1590"
+      },
+      {
+        "frame": 1,
+        "upper_body_rise": 1,
+        "blink": "open",
+        "visible_pixels": 5033,
+        "bounds": [
+          51,
+          4,
+          108,
+          158
+        ],
+        "feet_fixed": true,
+        "hash": "d07fbce3892409adcfd58b460b055bd02a4bda6bacf547230e62ad8800048ab3"
+      },
+      {
+        "frame": 2,
+        "upper_body_rise": 1,
+        "blink": "open",
+        "visible_pixels": 5033,
+        "bounds": [
+          51,
+          4,
+          108,
+          158
+        ],
+        "feet_fixed": true,
+        "hash": "d07fbce3892409adcfd58b460b055bd02a4bda6bacf547230e62ad8800048ab3"
+      },
+      {
+        "frame": 3,
+        "upper_body_rise": 2,
+        "blink": "open",
+        "visible_pixels": 5078,
+        "bounds": [
+          51,
+          3,
+          108,
+          158
+        ],
+        "feet_fixed": true,
+        "hash": "07469a788ff991bf0ef85e9645d54f3f49a611c05676916348cf61b70680d995"
+      },
+      {
+        "frame": 4,
+        "upper_body_rise": 2,
+        "blink": "half",
+        "visible_pixels": 5078,
+        "bounds": [
+          51,
+          3,
+          108,
+          158
+        ],
+        "feet_fixed": true,
+        "hash": "9a7043c336aee8384c13527653c78ba1df85ed19c191444568786802f9904413"
+      },
+      {
+        "frame": 5,
+        "upper_body_rise": 1,
+        "blink": "closed",
+        "visible_pixels": 5033,
+        "bounds": [
+          51,
+          4,
+          108,
+          158
+        ],
+        "feet_fixed": true,
+        "hash": "5f736eb171bb86510e5f75387c56be45c92d45f8cc372b8a2caaf14daa218c3d"
+      },
+      {
+        "frame": 6,
+        "upper_body_rise": 1,
+        "blink": "half",
+        "visible_pixels": 5033,
+        "bounds": [
+          51,
+          4,
+          108,
+          158
+        ],
+        "feet_fixed": true,
+        "hash": "d1c4eaf02909bc11f75e6e8660b42d92dcd96e968ac5a4d09058900804bbefee"
+      },
+      {
+        "frame": 7,
+        "upper_body_rise": 0,
+        "blink": "open",
+        "visible_pixels": 4998,
+        "bounds": [
+          51,
+          5,
+          108,
+          158
+        ],
+        "feet_fixed": true,
+        "hash": "60f116f9eea6e837fa15d033210096a87e1e65805d8d3c775b5f832961fb1590"
+      }
+    ],
+    "visual_review": "Native-size frame, integer-magnified eight-frame contact sheet, and native open/closed-eye crops inspected after pixel repair. Eye contours, pupil/sclera and blink were revised; body layer stayed unchanged, and full body, hands, cup, tie, badge and shoes remain complete."
+  },
+  "palette_policy": "No numerical palette limit for source/PNG. GIF format uses a global palette without dithering; display timing is quantized to GIF centiseconds.",
+  "not_a_default": "Canvas, outfit, motion, colors and display scale belong only to this showcase.",
+  "source_metadata_sanitized": true
+}

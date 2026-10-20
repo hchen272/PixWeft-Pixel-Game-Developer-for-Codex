@@ -1,0 +1,286 @@
+{
+  "id": "futuristic-runner",
+  "subject": "Futuristic adult woman",
+  "action": "Pose-guided in-place run cycle",
+  "status": "Revised temporal sequence with scoped native visual review; exact final source independently cold-opened and exported to RGBA identical to the current public PNG sheet.",
+  "source_method": "Built-in image generation with an authored native Pixelorama limb-ownership pose guide and approved face reference, followed by native draft registration, identity re-layering and actual shoulder/hand/kneepad pixel finishing. This is not a blank-canvas redraw or a duplicate-pose translated animation.",
+  "canvas": [
+    160,
+    160
+  ],
+  "frames": 8,
+  "fps": 10,
+  "gif_size": [
+    320,
+    320
+  ],
+  "sheet_size": [
+    640,
+    320
+  ],
+  "layers": [
+    {
+      "index": 0,
+      "role": "Eight distinct pose-guided generated body/limb drafts, registered with binary alpha and original head removed."
+    },
+    {
+      "index": 1,
+      "role": "Recognizable generated face, hair and earpiece re-layered consistently; coral near-kneepad markers, glove chevrons, knuckle and outline cleanup."
+    },
+    {
+      "index": 2,
+      "role": "Authored near shoulder seam, crossing sleeve cuff, and far-side sleeve material/occlusion in forward arm poses 2/3/4."
+    }
+  ],
+  "palette_policy": "No artistic color-count cap or source palette quantization. GIF uses its required indexed format palette.",
+  "costume_update": "The new pose-guided draft is a coordinated variant of the approved concept: white cropped jacket, navy trousers, cyan/white guards, violet hair/eyes and earpiece retained; sleeve cuts, exposed midriff and knee/shin-guard shapes changed. Not pixel-identical costume preservation.",
+  "normalization": {
+    "source_canvas": [
+      1774,
+      887
+    ],
+    "source_rects": "Proportional rounded 4x2 grid cells",
+    "interpolation": "nearest",
+    "registered_scale": 0.9,
+    "root": [
+      78,
+      88
+    ],
+    "root_vertical_offsets": [
+      0,
+      2,
+      0,
+      -2,
+      0,
+      2,
+      0,
+      -2
+    ],
+    "method": "Native per-pixel draft registration preserves distinct limb poses and stabilizes pelvis/face placement."
+  },
+  "native_frame_metrics": [
+    {
+      "frame": 0,
+      "rgba_sha256": "aeb910c1b210c7f350a34f140453d81e000cc8e5026e221ce976871ee4f9b970",
+      "visible_pixels": 5018,
+      "partial_alpha_pixels": 0,
+      "bounds": [
+        29,
+        23,
+        136,
+        145
+      ]
+    },
+    {
+      "frame": 1,
+      "rgba_sha256": "679c9bf8c352c6de8fe772b5fdbd7de3a1a70b0bda8dbab3c5565cce38abde5d",
+      "visible_pixels": 4051,
+      "partial_alpha_pixels": 0,
+      "bounds": [
+        37,
+        25,
+        114,
+        147
+      ]
+    },
+    {
+      "frame": 2,
+      "rgba_sha256": "1d4e1e36bc00d59354d8881d96d940cf7532de3c21cab3798f618e8dbf9853e1",
+      "visible_pixels": 4530,
+      "partial_alpha_pixels": 0,
+      "bounds": [
+        37,
+        23,
+        113,
+        146
+      ]
+    },
+    {
+      "frame": 3,
+      "rgba_sha256": "a540983ba5b311e96b84cd1610049c6e2d7367dc23ac32ae12cec32e89e12d3c",
+      "visible_pixels": 4958,
+      "partial_alpha_pixels": 0,
+      "bounds": [
+        28,
+        21,
+        140,
+        140
+      ]
+    },
+    {
+      "frame": 4,
+      "rgba_sha256": "f171af336f5a2b781639dc883ab413c0d940548f487f4e001ba2cee6e085d132",
+      "visible_pixels": 4852,
+      "partial_alpha_pixels": 0,
+      "bounds": [
+        27,
+        23,
+        139,
+        142
+      ]
+    },
+    {
+      "frame": 5,
+      "rgba_sha256": "77de968835eedda554fcd5b4d25b692a263acdbac067c2e736286da391a70dae",
+      "visible_pixels": 4037,
+      "partial_alpha_pixels": 0,
+      "bounds": [
+        34,
+        25,
+        116,
+        144
+      ]
+    },
+    {
+      "frame": 6,
+      "rgba_sha256": "fae025f66fecd726b0c0d0a57e8a9b98440f28955df3b2ed58460a0f516c5b8d",
+      "visible_pixels": 4366,
+      "partial_alpha_pixels": 0,
+      "bounds": [
+        40,
+        23,
+        118,
+        143
+      ]
+    },
+    {
+      "frame": 7,
+      "rgba_sha256": "74a7682befe2d11df015aebd0f7dc3f030813c79be2647fed5b6add5da12a8e7",
+      "visible_pixels": 4833,
+      "partial_alpha_pixels": 0,
+      "bounds": [
+        36,
+        21,
+        139,
+        140
+      ]
+    }
+  ],
+  "validation": {
+    "native_source_reopened": true,
+    "all_frame_rgba_equal": true,
+    "persisted_fps": 10,
+    "native_layers": 3,
+    "distinct_native_frames": 8,
+    "independent_cold_source_check": {
+      "fresh_process": true,
+      "private_preferences": true,
+      "source_sha256": "b0a518fa7f4b11ee9a7539ef91efeeff3c03f730d9f6561f29f9962ca4d13198",
+      "all_frame_rgba_equal": true,
+      "frames": 8,
+      "fps": 10,
+      "layers": 3,
+      "scope": "Final PXO fidelity only; motion and appearance review are separate."
+    }
+  },
+  "visual_review": {
+    "scope": "All eight full frames at native/2x, native6x shoulder-to-fist crops, knee/hand/face details, every adjacent transition and frame7 to frame0. Technical export checks do not establish artistic approval.",
+    "observations": [
+      "Near leg now changes from forward contact through push/back-fold to recovery/forward reach rather than repeating the same half-cycle.",
+      "Near shoulder visibly leads into the front crossing white sleeve in frames2/3/4; rear sleeve recedes behind it. Passing near-hand poses1/5 are similar silhouettes traveling in opposite temporal directions.",
+      "The recognizable same face/hair/earpiece remains layered consistently through the motion; the torso does not switch to a back view.",
+      "Targeted native patches repair glove/knuckle contours and keep a coral mark on the same near knee through occlusion."
+    ],
+    "transitions": [
+      {
+        "frame": 0,
+        "near_leg": "Forward heel contact",
+        "near_arm": "Back",
+        "next": "Near foot accepts weight, knee flexes; near arm travels from rear toward passing."
+      },
+      {
+        "frame": 1,
+        "near_leg": "Compression under body",
+        "near_arm": "Passing below the hip",
+        "next": "Near leg passes backward under the pelvis while the far knee lifts; near sleeve begins crossing forward."
+      },
+      {
+        "frame": 2,
+        "near_leg": "Push behind body",
+        "near_arm": "Forward crossing sleeve",
+        "next": "Near knee continues behind; far shin starts extending forward. Near arm holds its forward extreme briefly."
+      },
+      {
+        "frame": 3,
+        "near_leg": "Folded back during flight",
+        "near_arm": "Forward crossing sleeve",
+        "next": "Far foot lands; the near folded leg remains behind, no torso side change."
+      },
+      {
+        "frame": 4,
+        "near_leg": "Back as far foot lands",
+        "near_arm": "Forward crossing sleeve",
+        "next": "Near heel recovers forward; near fist lowers toward passing."
+      },
+      {
+        "frame": 5,
+        "near_leg": "Folded recovery behind pelvis",
+        "near_arm": "Passing below the hip",
+        "next": "Near knee rises in front; near arm continues rearward. This passing silhouette resembles frame1, with opposite temporal direction."
+      },
+      {
+        "frame": 6,
+        "near_leg": "Forward knee lift",
+        "near_arm": "Back",
+        "next": "Near shin extends for landing while far leg folds behind."
+      },
+      {
+        "frame": 7,
+        "near_leg": "Forward reach before contact",
+        "near_arm": "Back",
+        "next": "Loop to frame0: near heel lands; same side/face retained, no swap of near/far identity."
+      }
+    ],
+    "limits": "Scoped visual review of this small eight-pose example, not a blanket aesthetic or anatomical guarantee. Similar passing poses and generated cloth variations remain; playable state-machine integration and blending were not implemented."
+  },
+  "residual_limits": [
+    "The detailed costume is an updated generated variant, not an exact copy of the concept sheet.",
+    "Passing poses1/5 intentionally have similar silhouettes; their opposite motion direction is established by neighboring poses.",
+    "The native source retains a generated body base, with actual editable correction layers; individual limb parts are not fully separated.",
+    "The 8-frame loop is a README demonstration, not a certified anatomical reference or complete game animation controller."
+  ],
+  "files": [
+    {
+      "path": "assets/showcase/characters/futuristic-runner.gif",
+      "bytes": 100370,
+      "sha256": "f5b416e15c4472e59fe3a83722bb99e9da87f5b0828336096779420412cd8867"
+    },
+    {
+      "path": "assets/showcase/characters/futuristic-runner-sheet.png",
+      "bytes": 96294,
+      "sha256": "52fcc056f1a612c3478dae2791c2ee446bb09bf2cc7aa1b6a05d2fb13dcf01fd"
+    },
+    {
+      "path": "examples/showcase/sources/characters/futuristic-runner.pxo",
+      "bytes": 287996,
+      "sha256": "b0a518fa7f4b11ee9a7539ef91efeeff3c03f730d9f6561f29f9962ca4d13198"
+    },
+    {
+      "path": "examples/showcase/sources/characters/futuristic-runner-generated.png",
+      "bytes": 1170659,
+      "sha256": "bb3cddc84f9fc8e2481d8b205a8380997e8852e0cfde1812efbcf65ea02d8db8"
+    },
+    {
+      "path": "examples/showcase/sources/characters/futuristic-runner-reference.png",
+      "bytes": 727155,
+      "sha256": "0bebb659b4f2ea6b22342a4f7291db7b2a35f2967cc6ae195d0b2ad9a0579990"
+    },
+    {
+      "path": "examples/showcase/sources/characters/futuristic-runner-pose-guide.png",
+      "bytes": 13428,
+      "sha256": "7f03418ec8db4a09cd2a0d6ce79040ca58697cd8f34a935f86ef9e0dc4141a34"
+    },
+    {
+      "path": "examples/showcase/sources/characters/futuristic-runner-face-reference.png",
+      "bytes": 144165,
+      "sha256": "16984b72b4fc1fe226cf5cd76ce51b2f1eac6c9c4eaf27eda2e90797750f05da"
+    }
+  ],
+  "metadata_sanitization": {
+    "scope": "Only export_directory_path cleared in data.json; all non-data.json ZIP payloads preserved byte-for-byte, with a private original backup.",
+    "source_sha256": "b0a518fa7f4b11ee9a7539ef91efeeff3c03f730d9f6561f29f9962ca4d13198",
+    "original_source_sha256": "4945190ef8a1528ac100e083f18691ef4e5e97cee81e22f02995c1d323bb08d2",
+    "preserved_payload_count": 58,
+    "non_metadata_payload_sha256": "1d6e0c3476d7ec3021ec860a438ab05bb6ffbb20611d56e220635416019f8184"
+  }
+}

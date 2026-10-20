@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Build"
+  short_description: "Export, launch, and deliver a verified Godot build."
+  default_prompt: "Use $game-build to help with this game development task."

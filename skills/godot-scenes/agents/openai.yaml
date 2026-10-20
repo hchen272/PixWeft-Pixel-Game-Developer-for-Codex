@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Scenes"
+  short_description: "Build levels using tiles, objects, modules, or backgrounds."
+  default_prompt: "Use $godot-scenes to help with this game development task."

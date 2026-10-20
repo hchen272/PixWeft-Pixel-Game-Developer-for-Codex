@@ -1,0 +1,10 @@
+{
+  "name": "PixelGameBridge",
+  "display_name": "Pixel Game Bridge",
+  "description": "Local authenticated document editing bridge for the Pixel Game Codex plugin.",
+  "author": "Pixel Game contributors",
+  "version": "0.1.0",
+  "supported_api_versions": [8],
+  "license": "MIT",
+  "nodes": ["Main.tscn"]
+}

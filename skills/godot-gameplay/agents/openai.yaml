@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Gameplay"
+  short_description: "Implement and debug playable rules and interactions."
+  default_prompt: "Use $godot-gameplay to help with this game development task."

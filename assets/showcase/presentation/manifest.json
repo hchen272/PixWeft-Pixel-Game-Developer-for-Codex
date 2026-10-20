@@ -1,0 +1,90 @@
+{
+  "ok": true,
+  "method": "Stable canvas framing only; source artwork and timing preserved. Visual acceptance requires rendered inspection.",
+  "assets": [
+    {
+      "name": "medieval-knight",
+      "source": "assets/showcase/characters/medieval-knight.gif",
+      "crop": [
+        340,
+        306,
+        26,
+        44
+      ],
+      "pad": [
+        448,
+        416,
+        90,
+        12
+      ],
+      "translation": [
+        64,
+        -32
+      ],
+      "width": 448,
+      "presentation_canvas": [
+        448,
+        416
+      ],
+      "source_sha256": "b428f196aca2ed70879c2577af21226ae75dc786fd76493d58c17d8a633b4633",
+      "presentation_sha256": "be12147377c47fed44ac2a7647df7906f5ec876ac1d5d4045c05385ae2ab92ff",
+      "frames": 8,
+      "durations_ms": [
+        130,
+        120,
+        130,
+        120,
+        130,
+        120,
+        130,
+        120
+      ],
+      "source_loop": 0,
+      "presentation_loop": 0,
+      "visible_pixel_mismatches": 0,
+      "clipped_visible_pixels": 0
+    },
+    {
+      "name": "spoon-billed-sandpiper",
+      "source": "assets/showcase/animals/spoon-billed-sandpiper.gif",
+      "crop": [
+        196,
+        148,
+        32,
+        72
+      ],
+      "pad": [
+        256,
+        256,
+        30,
+        54
+      ],
+      "translation": [
+        -2,
+        -18
+      ],
+      "width": 256,
+      "presentation_canvas": [
+        256,
+        256
+      ],
+      "source_sha256": "51ca4767ae8271480f68f9d9676c484da44bc335a11956cbac2a901655369e6c",
+      "presentation_sha256": "223d8b097de4a7f090deefca81f8336aceeb05e541bad82c0cfbe456b27880b3",
+      "frames": 8,
+      "durations_ms": [
+        130,
+        120,
+        130,
+        120,
+        130,
+        120,
+        130,
+        120
+      ],
+      "source_loop": 0,
+      "presentation_loop": 0,
+      "visible_pixel_mismatches": 0,
+      "clipped_visible_pixels": 0
+    }
+  ]
+}

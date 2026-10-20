@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game UI"
+  short_description: "Build responsive game interfaces and visual states."
+  default_prompt: "Use $game-ui to help with this game development task."

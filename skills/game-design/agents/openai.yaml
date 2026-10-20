@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Design"
+  short_description: "Discuss mechanics and plan a focused playable target."
+  default_prompt: "Use $game-design to help with this game development task."

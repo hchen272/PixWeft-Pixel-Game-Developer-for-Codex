@@ -1,0 +1,204 @@
+{
+  "name": "PixWeft pixel wordmark",
+  "creation_route": "generated-draft-refine",
+  "generation_provider": "Codex built-in image generation",
+  "prompt": "prompt.md",
+  "generated_reference": "reference/pixweft-logo-v2-generated.png",
+  "native_source": "pixweft-logo.pxo",
+  "export": "pixweft-logo.png",
+  "readme_export": "pixweft-logo-2x.png",
+  "logical_canvas": [
+    192,
+    144
+  ],
+  "readme_canvas": [
+    384,
+    288
+  ],
+  "opaque_palette": [
+    "#F5F2E9",
+    "#20232B"
+  ],
+  "native_edit_application": "Pixelorama 1.1.10-stable, Extensions API 8",
+  "native_repairs": {
+    "palette_alpha_pixels": 8939,
+    "horizontal_bar_notch": [
+      [
+        77,
+        39
+      ]
+    ],
+    "keyline_pinholes": [
+      [
+        65,
+        50
+      ],
+      [
+        65,
+        53
+      ],
+      [
+        65,
+        55
+      ]
+    ],
+    "geometry_revision_3": {
+      "native_pixels_changed": 2896,
+      "i_stem": [
+        70,
+        39,
+        76,
+        79
+      ],
+      "i_top_bar": [
+        63,
+        39,
+        83,
+        45
+      ],
+      "i_bottom_bar": [
+        63,
+        73,
+        83,
+        79
+      ],
+      "x_bounds": [
+        84,
+        39,
+        124,
+        79
+      ],
+      "x_center": [
+        104,
+        59
+      ],
+      "w_center": 66,
+      "w_top": 88,
+      "w_bottom": 120,
+      "w_diagonal_step": [
+        1,
+        2
+      ],
+      "unchanged_white_components": [
+        [
+          19,
+          33,
+          62,
+          97
+        ],
+        [
+          127,
+          78,
+          174,
+          122
+        ],
+        [
+          99,
+          93,
+          125,
+          121
+        ]
+      ]
+    },
+    "rounded_w_revision_4": {
+      "revision": 4,
+      "authoritative_input": "assets/branding/reference/pixweft-logo-user-edited-v4-2x.png",
+      "logical_canvas": [
+        192,
+        144
+      ],
+      "old_w_ink_bounds": [
+        31,
+        88,
+        102,
+        121
+      ],
+      "new_w_ink_bounds": [
+        42,
+        86,
+        97,
+        121
+      ],
+      "w_ink_width_before": 71,
+      "w_ink_width_after": 55,
+      "symmetry_axis_x": 69,
+      "vertical_stems": [
+        45,
+        69,
+        93
+      ],
+      "stem_centerline_top": 89,
+      "stem_curve_join": 110,
+      "bowl_centers": [
+        [
+          57,
+          110
+        ],
+        [
+          81,
+          110
+        ]
+      ],
+      "bowl_radii": [
+        12,
+        7
+      ],
+      "native_pixels_changed": 1442,
+      "other_glyphs_and_edges_preserved": true
+    }
+  },
+  "checks": {
+    "binary_alpha": true,
+    "rgba_colors_including_transparency": 3,
+    "visible_bounds": [
+      16,
+      24,
+      178,
+      124
+    ],
+    "readme_exact_2x_nearest": true,
+    "portable_source_native_roundtrip_rgba_matches": true,
+    "user_2x_import_lossless": true,
+    "all_pixels_outside_w_owned_region_match_user_2x": true,
+    "protected_native_pixels": 25573,
+    "w_ink_mask_left_right_symmetry": true,
+    "w_ink_width": 55,
+    "w_width_reduction_percent": 22.54,
+    "w_three_upright_stems": true,
+    "w_two_rounded_bowls": true,
+    "ft_crossbar_continuous": true,
+    "light_dark_native_canvas_review": true,
+    "independent_visual_review": true
+  },
+  "scope": "Logo-specific design and measurements; no game-wide creative defaults.",
+  "sha256": {
+    "pixweft-logo.png": "38cb669c881d4e07b4611fee162e3bb97c81e55a96acacdd11ec1f7034acb9b3",
+    "pixweft-logo-2x.png": "45a56291c44b25bd044940eab8e7536df9a1a84396939c1aaad93e9e00432c4a",
+    "pixweft-logo.pxo": "172c43f39fe93b2f0a64e666fc8ff1c9dcc8f8ff013de8863c801596f19f3bc8",
+    "reference/pixweft-logo-v2-generated.png": "3da95a533ed5a4088fb8ea0a988328b0784ec147adad560eeaf535f40f2c715b",
+    "prompt.md": "5f6507d3edaa41a60b7d14286b547d40101c7616952f0e469f0fd0f0aa96c5db",
+    "reference/pixweft-logo-user-edited-v4-2x.png": "e6d05223ef158d07e03111dcfd8be9a241dd9391c27548c02b47bf774e0e7f35"
+  },
+  "historical_checks_revision_3": {
+    "binary_alpha": true,
+    "rgba_colors_including_transparency": 3,
+    "visible_bounds": [
+      16,
+      22,
+      178,
+      124
+    ],
+    "readme_exact_2x_nearest": true,
+    "portable_source_native_roundtrip_rgba_matches": true,
+    "ft_crossbar_continuous": true,
+    "light_dark_native_canvas_review": true,
+    "independent_visual_review": true,
+    "i_stem_and_bars_rectilinear": true,
+    "x_ink_mask_left_right_symmetry": true,
+    "x_ink_mask_up_down_symmetry": true,
+    "w_ink_mask_left_right_symmetry": true,
+    "w_four_regular_1_to_2_diagonals": true,
+    "P_e_ft_ink_preserved": true
+  },
+  "authoritative_user_revision": "reference/pixweft-logo-user-edited-v4-2x.png"
+}

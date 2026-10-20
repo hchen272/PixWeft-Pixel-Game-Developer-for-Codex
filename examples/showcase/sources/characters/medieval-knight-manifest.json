@@ -1,0 +1,651 @@
+{
+  "title": "Medieval knight sword slash",
+  "method": "High-quality generated pixel-art draft preserving an approved design; imported through real Pixelorama document.import_sheet and refined through native document.patch_pixels. No blank-canvas polygon replacement.",
+  "reference": "examples/showcase/sources/characters/medieval-knight-reference.png",
+  "generated": "examples/showcase/sources/characters/medieval-knight-generated.png",
+  "source": "examples/showcase/sources/characters/medieval-knight.pxo",
+  "sheet": "assets/showcase/characters/medieval-knight-sheet.png",
+  "gif": "assets/showcase/characters/medieval-knight.gif",
+  "creation_route": "generated-draft-refine",
+  "native_canvas": [
+    192,
+    192
+  ],
+  "frames": 8,
+  "native_fps": 8,
+  "preview_scale": 2,
+  "application": {
+    "api_version": 8,
+    "bridge": "pixel-game",
+    "bridge_version": "0.1.0",
+    "engine": "4.6.2-stable (official)",
+    "operations": [
+      "app.info",
+      "document.info",
+      "document.create",
+      "document.open_image",
+      "document.import_sheet",
+      "document.open_project",
+      "document.save",
+      "document.export_png",
+      "document.export_sheet",
+      "document.preview",
+      "document.patch_pixels",
+      "document.add_frame",
+      "document.add_layer",
+      "document.palette",
+      "document.set_animation_fps"
+    ],
+    "pixelorama_version": "v1.1.10-stable"
+  },
+  "preferences_isolated": true,
+  "native_layers": [
+    {
+      "name": "Layer 1",
+      "type": null
+    },
+    {
+      "name": "Native edge refinements",
+      "type": null
+    }
+  ],
+  "native_source_roundtrip": true,
+  "imported": {
+    "frame_height": 192,
+    "frame_width": 192,
+    "frames": 8,
+    "grid": {
+      "columns": 4,
+      "rows": 2
+    },
+    "interpolation": "nearest",
+    "palette_remapped": false,
+    "path": "examples/showcase/sources/characters/medieval-knight-generated.png",
+    "scale_factors": [
+      {
+        "x": 0.342857142857143,
+        "y": 0.342857142857143
+      },
+      {
+        "x": 0.342857142857143,
+        "y": 0.342857142857143
+      },
+      {
+        "x": 0.342857142857143,
+        "y": 0.342857142857143
+      },
+      {
+        "x": 0.342857142857143,
+        "y": 0.342857142857143
+      },
+      {
+        "x": 0.342857142857143,
+        "y": 0.342857142857143
+      },
+      {
+        "x": 0.342857142857143,
+        "y": 0.342857142857143
+      },
+      {
+        "x": 0.342857142857143,
+        "y": 0.342857142857143
+      },
+      {
+        "x": 0.342857142857143,
+        "y": 0.342857142857143
+      }
+    ],
+    "source_dimensions": [
+      1774,
+      887
+    ],
+    "source_rects": [
+      [
+        0,
+        0,
+        560,
+        560
+      ],
+      [
+        424,
+        0,
+        560,
+        560
+      ],
+      [
+        846,
+        0,
+        560,
+        560
+      ],
+      [
+        1214,
+        0,
+        560,
+        560
+      ],
+      [
+        0,
+        327,
+        560,
+        560
+      ],
+      [
+        424,
+        327,
+        560,
+        560
+      ],
+      [
+        846,
+        327,
+        560,
+        560
+      ],
+      [
+        1214,
+        327,
+        560,
+        560
+      ]
+    ],
+    "source_sha256": "5955320a3d8d06f4f6f7848c8a7ccc75998d2a133f455beabafc38596b674683",
+    "trimmed": false
+  },
+  "production": [
+    {
+      "frame": 0,
+      "source_component": {
+        "id": 4,
+        "pixels": 43335,
+        "bbox": [
+          97,
+          163,
+          400,
+          475
+        ]
+      },
+      "source_window": [
+        0,
+        0,
+        560,
+        560
+      ],
+      "uniform_scale": 0.34285714285714286,
+      "baseline": 174,
+      "alignment": {
+        "dx": -7,
+        "dy": 12
+      },
+      "partial_alpha_solidified": 5085,
+      "near_transparent_pixels_removed": 1373,
+      "neighboring_pose_pixels_removed": 416,
+      "native_gap_repairs": [],
+      "opaque_pixels": 5088,
+      "bbox": [
+        26,
+        68,
+        130,
+        175
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0,
+      "frame_rgba_sha256": "348504238c684484e98a6eb59b8334aaf85f42a0a8e183bc02fca3712a3ec724"
+    },
+    {
+      "frame": 1,
+      "source_component": {
+        "id": 3,
+        "pixels": 46946,
+        "bbox": [
+          514,
+          148,
+          824,
+          471
+        ]
+      },
+      "source_window": [
+        424,
+        0,
+        560,
+        560
+      ],
+      "uniform_scale": 0.34285714285714286,
+      "baseline": 174,
+      "alignment": {
+        "dx": -16,
+        "dy": 14
+      },
+      "partial_alpha_solidified": 5508,
+      "near_transparent_pixels_removed": 1514,
+      "neighboring_pose_pixels_removed": 212,
+      "native_gap_repairs": [],
+      "opaque_pixels": 5511,
+      "bbox": [
+        15,
+        65,
+        121,
+        175
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0,
+      "frame_rgba_sha256": "19c92be0dac1cbcc93bab984e4bcbf391cd9118429c4a589d3b4b8de3908ee5f"
+    },
+    {
+      "frame": 2,
+      "source_component": {
+        "id": 1,
+        "pixels": 46033,
+        "bbox": [
+          948,
+          24,
+          1240,
+          470
+        ]
+      },
+      "source_window": [
+        846,
+        0,
+        560,
+        560
+      ],
+      "uniform_scale": 0.34285714285714286,
+      "baseline": 174,
+      "alignment": {
+        "dx": -14,
+        "dy": 14
+      },
+      "partial_alpha_solidified": 5400,
+      "near_transparent_pixels_removed": 1497,
+      "neighboring_pose_pixels_removed": 114,
+      "native_gap_repairs": [
+        {
+          "x": 71,
+          "y": 85,
+          "color": "#2a241fff"
+        }
+      ],
+      "opaque_pixels": 5412,
+      "bbox": [
+        21,
+        22,
+        121,
+        175
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0,
+      "frame_rgba_sha256": "9bba271187fc8ce6e2607790e33f16e8fa5faa410f8ad7edd1849d8f1f943a57"
+    },
+    {
+      "frame": 3,
+      "source_component": {
+        "id": 2,
+        "pixels": 46690,
+        "bbox": [
+          1383,
+          73,
+          1706,
+          468
+        ]
+      },
+      "source_window": [
+        1214,
+        0,
+        560,
+        560
+      ],
+      "uniform_scale": 0.34285714285714286,
+      "baseline": 174,
+      "alignment": {
+        "dx": -35,
+        "dy": 15
+      },
+      "partial_alpha_solidified": 5479,
+      "near_transparent_pixels_removed": 1488,
+      "neighboring_pose_pixels_removed": 131,
+      "native_gap_repairs": [],
+      "opaque_pixels": 5484,
+      "bbox": [
+        23,
+        40,
+        134,
+        175
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0,
+      "frame_rgba_sha256": "b40fd4be6b565d71a8b64f99542f728775ac0768e8797a3d25a3cb1c653ea79c"
+    },
+    {
+      "frame": 4,
+      "source_component": {
+        "id": 7,
+        "pixels": 47896,
+        "bbox": [
+          65,
+          554,
+          559,
+          837
+        ]
+      },
+      "source_window": [
+        0,
+        327,
+        560,
+        560
+      ],
+      "uniform_scale": 0.34285714285714286,
+      "baseline": 174,
+      "alignment": {
+        "dx": -9,
+        "dy": 0
+      },
+      "partial_alpha_solidified": 5617,
+      "near_transparent_pixels_removed": 2701,
+      "neighboring_pose_pixels_removed": 3381,
+      "native_gap_repairs": [],
+      "opaque_pixels": 5628,
+      "bbox": [
+        13,
+        78,
+        183,
+        175
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0,
+      "frame_rgba_sha256": "42e1161700fec9d21d427afb3363ac903edee28dac29631552649e7cefad81b3"
+    },
+    {
+      "frame": 5,
+      "source_component": {
+        "id": 8,
+        "pixels": 42568,
+        "bbox": [
+          537,
+          570,
+          912,
+          842
+        ]
+      },
+      "source_window": [
+        424,
+        327,
+        560,
+        560
+      ],
+      "uniform_scale": 0.34285714285714286,
+      "baseline": 174,
+      "alignment": {
+        "dx": -21,
+        "dy": -2
+      },
+      "partial_alpha_solidified": 5017,
+      "near_transparent_pixels_removed": 2557,
+      "neighboring_pose_pixels_removed": 3723,
+      "native_gap_repairs": [],
+      "opaque_pixels": 5018,
+      "bbox": [
+        18,
+        81,
+        146,
+        175
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0,
+      "frame_rgba_sha256": "650de447f9defabfab42313999526bd6f4a0d649294f80c0f0f6eeaa904ec724"
+    },
+    {
+      "frame": 6,
+      "source_component": {
+        "id": 6,
+        "pixels": 41052,
+        "bbox": [
+          946,
+          547,
+          1256,
+          851
+        ]
+      },
+      "source_window": [
+        846,
+        327,
+        560,
+        560
+      ],
+      "uniform_scale": 0.34285714285714286,
+      "baseline": 174,
+      "alignment": {
+        "dx": -14,
+        "dy": -5
+      },
+      "partial_alpha_solidified": 4839,
+      "near_transparent_pixels_removed": 2284,
+      "neighboring_pose_pixels_removed": 3144,
+      "native_gap_repairs": [],
+      "opaque_pixels": 4845,
+      "bbox": [
+        20,
+        70,
+        127,
+        175
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0,
+      "frame_rgba_sha256": "61f4092472621676cad49e7ed36ccaba46f2a9fa6fd650c64f72d553f6c71ca2"
+    },
+    {
+      "frame": 7,
+      "source_component": {
+        "id": 5,
+        "pixels": 41998,
+        "bbox": [
+          1382,
+          541,
+          1693,
+          851
+        ]
+      },
+      "source_window": [
+        1214,
+        327,
+        560,
+        560
+      ],
+      "uniform_scale": 0.34285714285714286,
+      "baseline": 174,
+      "alignment": {
+        "dx": -35,
+        "dy": -5
+      },
+      "partial_alpha_solidified": 4940,
+      "near_transparent_pixels_removed": 2062,
+      "neighboring_pose_pixels_removed": 3081,
+      "native_gap_repairs": [],
+      "opaque_pixels": 4947,
+      "bbox": [
+        23,
+        68,
+        129,
+        175
+      ],
+      "partial_alpha": 0,
+      "hidden_rgb": 0,
+      "frame_rgba_sha256": "8b02e7e1a3a386e3b577c23f9d0648de969d5d31941aff74057a83995b5974d4"
+    }
+  ],
+  "hashes": {
+    "examples/showcase/sources/characters/medieval-knight.pxo": "15ee7dae17460ae35e5bb2c40771d4e1c3d68f4c104d8cad37daa3a7c7d1bbdb",
+    "assets/showcase/characters/medieval-knight-sheet.png": "3bb283e1d40b0545571b7a15ec8f881155cd6c9e1596b7df905030814492ad6b",
+    "assets/showcase/characters/medieval-knight.gif": "b428f196aca2ed70879c2577af21226ae75dc786fd76493d58c17d8a633b4633",
+    "examples/showcase/sources/characters/medieval-knight-generated.png": "5955320a3d8d06f4f6f7848c8a7ccc75998d2a133f455beabafc38596b674683",
+    "examples/showcase/sources/characters/medieval-knight-reference.png": "c0326f42b51ee1930a72fa9f17bfa28f32c9132405d274a2fe01ab15625c9cdf"
+  },
+  "checks": [
+    {
+      "operation": "document.import_sheet",
+      "ok": true
+    },
+    {
+      "operation": "document.set_animation_fps",
+      "ok": true
+    },
+    {
+      "operation": "document.add_layer",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.patch_pixels",
+      "ok": true
+    },
+    {
+      "operation": "document.export_png",
+      "ok": true
+    },
+    {
+      "operation": "document.save",
+      "ok": true
+    },
+    {
+      "operation": "document.export_sheet",
+      "ok": true
+    },
+    {
+      "operation": "document.export_sheet",
+      "ok": true
+    },
+    {
+      "operation": "document.open_project",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    },
+    {
+      "operation": "document.preview",
+      "ok": true
+    }
+  ],
+  "palette_policy": "No numerical art palette cap or native RGB remapping. GIF necessarily uses its 256-color format palette; PNG/PXO retain native colors.",
+  "limits": [
+    "Generated draft is flattened artwork; native refinement layer does not reconstruct anatomical layers.",
+    "The animation uses generated key poses; no claim of hand-painted original eight poses.",
+    "No in-game Godot integration is claimed for this isolated asset showcase."
+  ],
+  "source_metadata_sanitized": true
+}

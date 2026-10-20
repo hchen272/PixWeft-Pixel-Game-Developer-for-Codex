@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pixel Art"
+  short_description: "Create prompts, sprites, animation, and source artwork."
+  default_prompt: "Use $pixel-art to help with this game development task."

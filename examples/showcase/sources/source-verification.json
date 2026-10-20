@@ -1,0 +1,255 @@
+{
+  "ok": true,
+  "scope": "Each listed current PXO was opened in a fresh private Pixelorama 1.1.10-stable / API 8 process and exported to RGBA equal to the current public PNG sheet. Six repaired sources were reverified in this revision; unchanged prior source evidence was retained only after exact source and sheet hash checks. Metadata cleanup preserved non-data.json ZIP payloads byte-for-byte. File fidelity does not establish artwork or motion quality.",
+  "source_count": 10,
+  "reverified_in_this_revision": 6,
+  "unchanged_prior_sources_retained": 4,
+  "sources": [
+    {
+      "source": "examples/showcase/sources/characters/futuristic-runner.pxo",
+      "source_sha256": "b0a518fa7f4b11ee9a7539ef91efeeff3c03f730d9f6561f29f9962ca4d13198",
+      "original_source_sha256": "4945190ef8a1528ac100e083f18691ef4e5e97cee81e22f02995c1d323bb08d2",
+      "sanitized_source_sha256": "b0a518fa7f4b11ee9a7539ef91efeeff3c03f730d9f6561f29f9962ca4d13198",
+      "public_sheet": "assets/showcase/characters/futuristic-runner-sheet.png",
+      "public_sheet_sha256": "52fcc056f1a612c3478dae2791c2ee446bb09bf2cc7aa1b6a05d2fb13dcf01fd",
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "frames": 8,
+      "fps": 10,
+      "layers": 3,
+      "fresh_process": true,
+      "private_preferences": true,
+      "new_document_identity": true,
+      "cold_export_rgba_matches_public_sheet": true,
+      "sheet_rgba_sha256": "b9d520a453c132138ebc21097d36ba44c73f888f2a62a87b1033fb6ce2729cf7",
+      "all_non_metadata_payloads_byte_identical": true,
+      "changed_metadata_keys": [
+        "export_directory_path"
+      ],
+      "public_metadata_sanitized": true,
+      "preserved_payload_count": 58,
+      "non_metadata_payload_sha256": "1d6e0c3476d7ec3021ec860a438ab05bb6ffbb20611d56e220635416019f8184"
+    },
+    {
+      "source": "examples/showcase/sources/characters/medieval-knight.pxo",
+      "source_sha256": "15ee7dae17460ae35e5bb2c40771d4e1c3d68f4c104d8cad37daa3a7c7d1bbdb",
+      "public_sheet": "assets/showcase/characters/medieval-knight-sheet.png",
+      "canvas": {
+        "width": 192,
+        "height": 192
+      },
+      "frames": 8,
+      "fps": 8,
+      "layers": 2,
+      "fresh_process": true,
+      "private_preferences": true,
+      "new_document_identity": true,
+      "cold_export_rgba_matches_public_sheet": true,
+      "sheet_rgba_sha256": "448cc5bba2779069282a873f2ad0deaabb3ade0deb79e31dc891a24f0bbf11ca",
+      "all_non_metadata_payloads_byte_identical": true,
+      "preserved_payload_count": 42,
+      "non_metadata_payload_sha256": "aa794c4adf17c40a343c14f0b7165e0a8d397d8383f41b9b7d8b7b83722a4d78",
+      "public_sheet_sha256": "3bb283e1d40b0545571b7a15ec8f881155cd6c9e1596b7df905030814492ad6b"
+    },
+    {
+      "source": "examples/showcase/sources/characters/salaryman-idle.pxo",
+      "source_sha256": "7db12c19bc9b4b15363d0f05679985d65ce2d479e9ea87f6e0952bcb3f7af6ff",
+      "public_sheet": "assets/showcase/characters/salaryman-idle-sheet.png",
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "frames": 8,
+      "fps": 8,
+      "layers": 2,
+      "fresh_process": true,
+      "private_preferences": true,
+      "new_document_identity": true,
+      "cold_export_rgba_matches_public_sheet": true,
+      "sheet_rgba_sha256": "e5e95fd9243969a366526a37e9ea5c5dea3c81c7638269810ac659a0e3711aed",
+      "all_non_metadata_payloads_byte_identical": true,
+      "preserved_payload_count": 42,
+      "non_metadata_payload_sha256": "9cef0c4485b4d441a7548aea1402bb1efc70e096600e927f82cbc706bbbb5ae8",
+      "public_sheet_sha256": "66c9c36f8e82f71831b45aa96821760fedd6fc931a764493d0ffa4d6203c9acf"
+    },
+    {
+      "source": "examples/showcase/sources/animals/corgi-puppy.pxo",
+      "source_sha256": "10ec82b75a5a00b68f9d725127e05f2bf5ae0d618d32c587279686f0d0bb8ce8",
+      "original_source_sha256": "d3a8be6b19fc08a947031ee7d3b9ea3fad9222f72bc4e19f2328ef964c6457a6",
+      "sanitized_source_sha256": "10ec82b75a5a00b68f9d725127e05f2bf5ae0d618d32c587279686f0d0bb8ce8",
+      "public_sheet": "assets/showcase/animals/corgi-puppy-sheet.png",
+      "public_sheet_sha256": "e2a01bcc3b9f88a0372f7f49faec3569233b30b23f6d2b5ac9d31729e8ba3f2f",
+      "canvas": {
+        "width": 128,
+        "height": 128
+      },
+      "frames": 8,
+      "fps": 8,
+      "layers": 3,
+      "fresh_process": true,
+      "private_preferences": true,
+      "new_document_identity": true,
+      "cold_export_rgba_matches_public_sheet": true,
+      "sheet_rgba_sha256": "321d4885413122320ea5d65ec5cd68488899d03931fd8be5844c34d7f4f69ab5",
+      "all_non_metadata_payloads_byte_identical": true,
+      "changed_metadata_keys": [
+        "export_directory_path"
+      ],
+      "public_metadata_sanitized": true,
+      "preserved_payload_count": 58,
+      "non_metadata_payload_sha256": "757b4db2e023de1796246702ea3e1c65bf0e385926aa1912fe4204ccad805440"
+    },
+    {
+      "source": "examples/showcase/sources/animals/ginger-kitten.pxo",
+      "source_sha256": "aec63d792e00b232ec5f010cf5607b6ba949ab1476eb18e835b61d1e81426b45",
+      "original_source_sha256": "99c32edbbcbb3eb9e0a66adf2d87e14f328dd2d4449988ad38f67471e8f31cdd",
+      "sanitized_source_sha256": "aec63d792e00b232ec5f010cf5607b6ba949ab1476eb18e835b61d1e81426b45",
+      "public_sheet": "assets/showcase/animals/ginger-kitten-sheet.png",
+      "public_sheet_sha256": "1624d48a3ad9d397e18a1ac7b6784a0580394a0ad2c240c12dcf6d5f368e2df9",
+      "canvas": {
+        "width": 128,
+        "height": 128
+      },
+      "frames": 8,
+      "fps": 8,
+      "layers": 5,
+      "fresh_process": true,
+      "private_preferences": true,
+      "new_document_identity": true,
+      "cold_export_rgba_matches_public_sheet": true,
+      "sheet_rgba_sha256": "fe7a132ad20e75766da6fe6eff4db0619f39cab60ea41599d5326bac2fb10fc9",
+      "all_non_metadata_payloads_byte_identical": true,
+      "changed_metadata_keys": [
+        "export_directory_path"
+      ],
+      "public_metadata_sanitized": true,
+      "preserved_payload_count": 90,
+      "non_metadata_payload_sha256": "49f83b1809269b4c2f0e02eb69944c402668a2abb60d4d2909c209dece9ed827"
+    },
+    {
+      "source": "examples/showcase/sources/animals/red-whiskered-bulbul.pxo",
+      "source_sha256": "3da4df172df8db40837d256c030e903b35b37c7c39ce00215e3fae54aa283e0a",
+      "original_source_sha256": "cbcdbae1cccea1cb3677a9e4bc358e8ac783392858162fc71568ecabd050df43",
+      "sanitized_source_sha256": "3da4df172df8db40837d256c030e903b35b37c7c39ce00215e3fae54aa283e0a",
+      "public_sheet": "assets/showcase/animals/red-whiskered-bulbul-sheet.png",
+      "public_sheet_sha256": "f342fe176d5bbe377758277965f7312dd6b3dba179f2a850ed9d13957990d83e",
+      "canvas": {
+        "width": 128,
+        "height": 128
+      },
+      "frames": 8,
+      "fps": 8,
+      "layers": 2,
+      "fresh_process": true,
+      "private_preferences": true,
+      "new_document_identity": true,
+      "cold_export_rgba_matches_public_sheet": true,
+      "sheet_rgba_sha256": "44e349917048da7af42f77153a8fc7165861edb9fb4ad740e9b09b3e9aaff6f4",
+      "all_non_metadata_payloads_byte_identical": true,
+      "changed_metadata_keys": [
+        "export_directory_path"
+      ],
+      "public_metadata_sanitized": true,
+      "preserved_payload_count": 42,
+      "non_metadata_payload_sha256": "8b0d68836d9c4a39f1ff0159056bfbdfd8898a58ae090b7ebf0c0c0706b839f6"
+    },
+    {
+      "source": "examples/showcase/sources/animals/spoon-billed-sandpiper.pxo",
+      "source_sha256": "2fcb6c723128e22ba4a54a7858cef6113057e6605dbb8d600a65cd5b045e2f94",
+      "original_source_sha256": "ab25a6cb9f9535d5d07a01f052e5ec7174bc6fdb14e82809c3bf24199eb0139e",
+      "sanitized_source_sha256": "2fcb6c723128e22ba4a54a7858cef6113057e6605dbb8d600a65cd5b045e2f94",
+      "public_sheet": "assets/showcase/animals/spoon-billed-sandpiper-sheet.png",
+      "public_sheet_sha256": "9a083d6436172221711fd23cf86c688384bf412e1bd7a3d9ecabdfcc91718439",
+      "canvas": {
+        "width": 128,
+        "height": 128
+      },
+      "frames": 8,
+      "fps": 8,
+      "layers": 2,
+      "fresh_process": true,
+      "private_preferences": true,
+      "new_document_identity": true,
+      "cold_export_rgba_matches_public_sheet": true,
+      "sheet_rgba_sha256": "ccb4c6ab9720a2e79a0030ef045c433588db5cfeb9a208026685dbba48ce0a4c",
+      "all_non_metadata_payloads_byte_identical": true,
+      "changed_metadata_keys": [
+        "export_directory_path"
+      ],
+      "public_metadata_sanitized": true,
+      "preserved_payload_count": 42,
+      "non_metadata_payload_sha256": "7584437d5be7425456e83e696f9a52019621475e627f11d909a2da760c8dc663"
+    },
+    {
+      "source": "examples/showcase/sources/buildings/lunar-outpost.pxo",
+      "source_sha256": "38ef1ec42fe18d046af58e25bc89e221ab411bca6ad7f67e01e64d011c18f29d",
+      "original_source_sha256": "c8b70d304053f994f88abeeda360634220ad7162b509f7d3045419b82b4431e8",
+      "sanitized_source_sha256": "38ef1ec42fe18d046af58e25bc89e221ab411bca6ad7f67e01e64d011c18f29d",
+      "public_sheet": "assets/showcase/buildings/lunar-outpost-sheet.png",
+      "public_sheet_sha256": "4b1fa29afa3f27173a548df026aa80d2e1848eaee3bef6b4b8a92bf785084dbb",
+      "canvas": {
+        "width": 384,
+        "height": 256
+      },
+      "frames": 8,
+      "fps": 4,
+      "layers": 4,
+      "fresh_process": true,
+      "private_preferences": true,
+      "new_document_identity": true,
+      "cold_export_rgba_matches_public_sheet": true,
+      "sheet_rgba_sha256": "49980caa32204b400e0e5583225dce9fd60c1a408e1153491193b404b8fd9f43",
+      "all_non_metadata_payloads_byte_identical": true,
+      "changed_metadata_keys": [
+        "export_directory_path"
+      ],
+      "public_metadata_sanitized": true,
+      "preserved_payload_count": 74,
+      "non_metadata_payload_sha256": "da82d00bea18b0ae760b49f37330232191860ea80e6c9fb326cf4efedb79e6fc"
+    },
+    {
+      "source": "examples/showcase/sources/buildings/mediterranean-bookshop.pxo",
+      "source_sha256": "f4a80716cf6a1abaa1ea121bd7a2d7ba145d41f407ed6149d3691ccfb5a49402",
+      "public_sheet": "assets/showcase/buildings/mediterranean-bookshop-sheet.png",
+      "canvas": {
+        "width": 256,
+        "height": 256
+      },
+      "frames": 8,
+      "fps": 8,
+      "layers": 3,
+      "fresh_process": true,
+      "private_preferences": true,
+      "new_document_identity": true,
+      "cold_export_rgba_matches_public_sheet": true,
+      "sheet_rgba_sha256": "7a0557e7c08ec9cbaa19618b46513c04ff2c80e660f6f3e46f4d7a015fef018d",
+      "all_non_metadata_payloads_byte_identical": true,
+      "preserved_payload_count": 58,
+      "non_metadata_payload_sha256": "fef3f3d559c37eea9b17d0572ba2b6b792b67286ba6781526a1faad07cb7289a",
+      "public_sheet_sha256": "ac615dfd6b8648e3968898e63c92b225052a018f6f9be7cdd7ee30ded296eab3"
+    },
+    {
+      "source": "examples/showcase/sources/buildings/woodland-cottage.pxo",
+      "source_sha256": "fa585c79e6bda0459cdd562af15c7c6dadb7e125a84c0744d639098afd2d836f",
+      "public_sheet": "assets/showcase/buildings/woodland-cottage-sheet.png",
+      "canvas": {
+        "width": 256,
+        "height": 256
+      },
+      "frames": 8,
+      "fps": 8,
+      "layers": 2,
+      "fresh_process": true,
+      "private_preferences": true,
+      "new_document_identity": true,
+      "cold_export_rgba_matches_public_sheet": true,
+      "sheet_rgba_sha256": "f5de26a486c872ff8658a010aa0c7f39f859a139ec2849a9887cc8730ef3ba7f",
+      "all_non_metadata_payloads_byte_identical": true,
+      "preserved_payload_count": 42,
+      "non_metadata_payload_sha256": "bd9eb3912c7073ec30416a56568efa25c42e0ff7b7b9a72b497102395d6fae5d",
+      "public_sheet_sha256": "d92d701344aae63da302eb23a69efa1943ede6cecb632be91e411fafe2b52de7"
+    }
+  ]
+}

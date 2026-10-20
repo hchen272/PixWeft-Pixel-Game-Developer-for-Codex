@@ -1,0 +1,311 @@
+{
+  "production_guide": false,
+  "guide_colors": {
+    "NF": "#ed3949ff",
+    "NH": "#22d36cff",
+    "FF": "#329cffff",
+    "FH": "#b069ffff"
+  },
+  "guide_contacts": [
+    {
+      "NF": [
+        101,
+        112
+      ],
+      "FH": [
+        43,
+        112
+      ],
+      "NH": [
+        18,
+        102
+      ],
+      "FF": [
+        78,
+        102
+      ]
+    },
+    {
+      "NF": [
+        95,
+        112
+      ],
+      "FH": [
+        37,
+        112
+      ],
+      "NH": [
+        24,
+        100
+      ],
+      "FF": [
+        84,
+        100
+      ]
+    },
+    {
+      "NF": [
+        86,
+        112
+      ],
+      "FH": [
+        28,
+        112
+      ],
+      "NH": [
+        34,
+        101
+      ],
+      "FF": [
+        94,
+        101
+      ]
+    },
+    {
+      "NF": [
+        78,
+        110
+      ],
+      "FH": [
+        20,
+        110
+      ],
+      "NH": [
+        43,
+        109
+      ],
+      "FF": [
+        101,
+        109
+      ]
+    },
+    {
+      "NF": [
+        78,
+        102
+      ],
+      "FH": [
+        18,
+        102
+      ],
+      "NH": [
+        43,
+        112
+      ],
+      "FF": [
+        101,
+        112
+      ]
+    },
+    {
+      "NF": [
+        84,
+        100
+      ],
+      "FH": [
+        24,
+        100
+      ],
+      "NH": [
+        37,
+        112
+      ],
+      "FF": [
+        95,
+        112
+      ]
+    },
+    {
+      "NF": [
+        94,
+        101
+      ],
+      "FH": [
+        34,
+        101
+      ],
+      "NH": [
+        28,
+        112
+      ],
+      "FF": [
+        86,
+        112
+      ]
+    },
+    {
+      "NF": [
+        101,
+        109
+      ],
+      "FH": [
+        43,
+        109
+      ],
+      "NH": [
+        20,
+        110
+      ],
+      "FF": [
+        78,
+        110
+      ]
+    }
+  ],
+  "guide_pairing": "NF+FH together, FF+NH complementary",
+  "contact_convention": "The project-specific motion guide chooses a single screen-space side-profile contact plane, last visible y112. This is not a generic criterion for perspective artwork; a different view may legitimately use different projected depth planes.",
+  "gait_reference": "https://vanat.ahc.umn.edu/gaits/trot.html",
+  "generated_pose_mapping": [
+    0,
+    1,
+    2,
+    4,
+    4,
+    5,
+    6,
+    7
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "generated_pose": 0,
+      "dx": 0,
+      "dy": 3,
+      "target_bottom_exclusive": 113
+    },
+    {
+      "frame": 1,
+      "generated_pose": 1,
+      "dx": 0,
+      "dy": 3,
+      "target_bottom_exclusive": 113
+    },
+    {
+      "frame": 2,
+      "generated_pose": 2,
+      "dx": 0,
+      "dy": 2,
+      "target_bottom_exclusive": 113
+    },
+    {
+      "frame": 3,
+      "generated_pose": 4,
+      "dx": 0,
+      "dy": 3,
+      "target_bottom_exclusive": 112
+    },
+    {
+      "frame": 4,
+      "generated_pose": 4,
+      "dx": 0,
+      "dy": 4,
+      "target_bottom_exclusive": 113
+    },
+    {
+      "frame": 5,
+      "generated_pose": 5,
+      "dx": 0,
+      "dy": 4,
+      "target_bottom_exclusive": 113
+    },
+    {
+      "frame": 6,
+      "generated_pose": 6,
+      "dx": 1,
+      "dy": 4,
+      "target_bottom_exclusive": 113
+    },
+    {
+      "frame": 7,
+      "generated_pose": 7,
+      "dx": 0,
+      "dy": 1,
+      "target_bottom_exclusive": 112
+    }
+  ],
+  "retiming": "Failed generated pose3 excluded; pose4 supplies an explicit one-pixel-lifted precontact hold at frame3 before its grounded frame4. Other poses remain distinct generated whole-body drawings; frame7 anticipates contact one pixel above ground.",
+  "native_head_identity": "One approved generated head/neck contour held consistently through all poses in a native layer; actual source pixels patched and composite asserted.",
+  "native_distal_paw_retouch": "Native per-pixel distal-paw contour/material retouch in a separate editable layer. Upper legs, hips, shoulders, face and torso stay as previously reviewed. The source region is stretched only2–3logicalpixels below its fixed ankle-root boundary, retaining its fur/shadow colors and rounded toe contour; full native composite asserted.",
+  "paw_corrections": [
+    {
+      "frame": 0,
+      "changed_pixels": 154,
+      "transparent_removals": 7,
+      "rule": {
+        "frame": 0,
+        "x0": 35,
+        "x1": 56,
+        "y0": 102,
+        "source_bottom": 111,
+        "target_bottom": 113,
+        "role": "Far hind partner of near-front support; rounded distal fur/paw now reaches the authored side-profile contact plane."
+      }
+    },
+    {
+      "frame": 1,
+      "changed_pixels": 145,
+      "transparent_removals": 6,
+      "rule": {
+        "frame": 1,
+        "x0": 35,
+        "x1": 54,
+        "y0": 102,
+        "source_bottom": 111,
+        "target_bottom": 113,
+        "role": "Same far hind paw in the A support hold."
+      }
+    },
+    {
+      "frame": 2,
+      "changed_pixels": 125,
+      "transparent_removals": 4,
+      "rule": {
+        "frame": 2,
+        "x0": 18,
+        "x1": 32,
+        "y0": 100,
+        "source_bottom": 110,
+        "target_bottom": 113,
+        "role": "Same far hind paw during the backward A stance."
+      }
+    },
+    {
+      "frame": 3,
+      "changed_pixels": 0,
+      "transparent_removals": 0,
+      "rule": null
+    },
+    {
+      "frame": 4,
+      "changed_pixels": 0,
+      "transparent_removals": 0,
+      "rule": null
+    },
+    {
+      "frame": 5,
+      "changed_pixels": 0,
+      "transparent_removals": 0,
+      "rule": null
+    },
+    {
+      "frame": 6,
+      "changed_pixels": 0,
+      "transparent_removals": 0,
+      "rule": null
+    },
+    {
+      "frame": 7,
+      "changed_pixels": 152,
+      "transparent_removals": 5,
+      "rule": {
+        "frame": 7,
+        "x0": 38,
+        "x1": 56,
+        "y0": 101,
+        "source_bottom": 109,
+        "target_bottom": 112,
+        "role": "Far hind distal paw approaches the next A contact one pixel above the authored plane."
+      }
+    }
+  ]
+}

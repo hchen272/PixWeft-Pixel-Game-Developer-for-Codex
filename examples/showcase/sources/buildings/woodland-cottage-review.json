@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "decoded_gif": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "frames": 8,
+    "distinct_decoded_frames": 8,
+    "delays_ms": [
+      130,
+      120,
+      130,
+      120,
+      130,
+      120,
+      130,
+      120
+    ],
+    "loop_duration_ms": 1000,
+    "alpha_differences_from_native_2x": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mean_rgb_channel_error_from_gif_palette": [
+      3.469,
+      3.474,
+      3.468,
+      3.472,
+      3.469,
+      3.473,
+      3.469,
+      3.466
+    ]
+  },
+  "native_source": {
+    "fps": 8,
+    "frames": 8,
+    "layers": 2
+  },
+  "selected_input_sha256": "c430e11a9ced69332884481f333bf1ad6f37a667f7a5c6abe213ab7f684097c9",
+  "visual_review": {
+    "inspected": [
+      "Native 256x256 static export.",
+      "Exact 2x nearest preview.",
+      "All eight native contact-sheet frames."
+    ],
+    "findings": [
+      "Complete steep shingle roof and chimney retained.",
+      "Original timber, plaster, detailed door, stone arch, steps, lantern, shutters, flower box, plants and foundation retained.",
+      "No architectural geometry, scale, origin, or base pixel color changes between animation frames.",
+      "Only a small chimney-smoke layer and golden window/lantern modulation animate.",
+      "No silhouette clipping, low-alpha fringe or hidden RGB left in native exports."
+    ],
+    "limits": [
+      "Native source has a flattened generated base and one authored FX layer; it does not reconstruct architectural layers.",
+      "GIF format palette slightly approximates native RGB; lossless PNG/PXO keep native colors.",
+      "No in-game Godot render is claimed for this isolated asset export."
+    ]
+  }
+}

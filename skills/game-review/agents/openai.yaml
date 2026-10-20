@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Review"
+  short_description: "Review art, reproduce defects, and verify playable results."
+  default_prompt: "Use $game-review to help with this game development task."

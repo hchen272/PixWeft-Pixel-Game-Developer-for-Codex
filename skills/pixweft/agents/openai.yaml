@@ -1,0 +1,4 @@
+interface:
+  display_name: "PixWeft"
+  short_description: "Build and playtest pixel games with Codex."
+  default_prompt: "Use $pixweft to help with this game development task."
