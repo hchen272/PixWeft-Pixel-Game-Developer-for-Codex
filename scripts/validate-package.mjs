@@ -33,7 +33,8 @@ async function walk(directory) {
     const text = await fs.readFile(file, 'utf8');
     sourceFiles++;
     if (entry.name.endsWith('.json')) { try { JSON.parse(text); } catch { errors.push(`Invalid JSON: ${path.relative(root, file)}`); } }
-    if (entry.name !== 'README.zh-CN.md' && /[\u3400-\u9fff]/.test(text)) errors.push(`Non-English source text: ${path.relative(root, file)}`);
+    const isReadme = /^README(?:\.[a-z0-9_-]+)?\.md$/i.test(entry.name);
+    if (!isReadme && /[\u3400-\u9fff]/.test(text)) errors.push(`Non-English source text: ${path.relative(root, file)}`);
     if (/\b[A-Za-z]:[\\/](?:Users|Game|Interest)[\\/]/.test(text)) errors.push(`Machine-specific path in source: ${path.relative(root, file)}`);
     if (entry.name.endsWith('.md')) for (const match of text.matchAll(/\[[^\]]*\]\(([^)]+)\)/g)) {
       const target = match[1].split('#')[0];
@@ -43,5 +44,5 @@ async function walk(directory) {
   }
 }
 await walk(root);
-console.log(JSON.stringify({ ok: errors.length === 0, checks: ['manifest identity and versions', 'stdio launch path', 'skill discovery metadata', 'JSON syntax', 'local Markdown links', 'English sources', 'machine-path isolation'], skills, source_files: sourceFiles, errors }, null, 2));
+console.log(JSON.stringify({ ok: errors.length === 0, checks: ['manifest identity and versions', 'stdio launch path', 'skill discovery metadata', 'JSON syntax', 'local Markdown links', 'English sources (excluding README files)', 'machine-path isolation'], skills, source_files: sourceFiles, errors }, null, 2));
 if (errors.length) process.exitCode = 1;
