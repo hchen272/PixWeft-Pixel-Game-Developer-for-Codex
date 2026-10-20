@@ -226,3 +226,7 @@ npm test
 ## 致谢
 
 能力拆分和“探讨—制作—审阅”的流程参考了 [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills)。详见 [来源与依赖](THIRD_PARTY.md)。原创插件代码采用 [MIT 许可](LICENSE)。
+
+## 联系
+
+如果你有问题、反馈或想法，欢迎通过邮件联系：[hongliangchen103@gmail.com](mailto:hongliangchen103@gmail.com)。

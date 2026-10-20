@@ -1,7 +1,14 @@
 name: Check
 on:
   push:
+    paths-ignore:
+      - '**/README.md'
+      - '**/README.*.md'
   pull_request:
+    paths-ignore:
+      - '**/README.md'
+      - '**/README.*.md'
+  workflow_dispatch:
 jobs:
   package-and-tools:
     strategy:

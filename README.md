@@ -226,3 +226,7 @@ Checks cover package structure, MCP communication, project isolation, asset meas
 ## Credits
 
 The skill structure and discussion-to-review approach were inspired by [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills). See [sources and dependencies](THIRD_PARTY.md). Original plugin code is [MIT licensed](LICENSE).
+
+## Contact
+
+Have questions, feedback, or ideas? Feel free to reach out at [hongliangchen103@gmail.com](mailto:hongliangchen103@gmail.com).
