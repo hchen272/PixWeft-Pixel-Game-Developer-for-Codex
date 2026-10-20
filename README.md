@@ -5,7 +5,7 @@
 <h1 align="center">PixWeft: Pixel game developer for Codex</h1>
 
 <p align="center">
-  <a href="README.md">English</a> &middot; <a href="README.zh-CN.md">Simplified Chinese</a>
+  <a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a>
 </p>
 
 <p align="center">A Codex plugin for building pixel games with Godot and Pixelorama, from ideas and AI-assisted art to gameplay, playtesting, and iteration.</p>
@@ -23,7 +23,7 @@
     </td>
     <td valign="middle">
       <h3>Animated pixel portrait</h3>
-      <p>A user-refined portrait of a man with a cigar, presented as a short nine-frame loop.</p>
+      <p>The man smoking a cigar, presented as a short nine-frame loop.</p>
       <p><em>9 frames &middot; 1.8-second loop</em></p>
     </td>
   </tr>
