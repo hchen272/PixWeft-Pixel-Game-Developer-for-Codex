@@ -23,6 +23,8 @@ pixel-game-bridge.json
 /exports/
 /coverage/
 *.tgz
+/pixweft-*.zip
+/pixweft-*.tar.gz
 
 # OS and editor temporary files
 .DS_Store

@@ -101,7 +101,7 @@
   </tr>
 </table>
 
-通过 PixWeft 尝试不同的美术风格。[展示目录](examples/showcase/README.md) 提供可编辑源文件、精灵图、prompt 和制作记录。
+通过 PixWeft 尝试不同的美术风格。
 
 游戏的风格、视角、画布、调色板和地图组织方式由你决定。PixWeft 支持 TileMap、自由摆放场景、分层背景、可复用模块和混合搭建。
 

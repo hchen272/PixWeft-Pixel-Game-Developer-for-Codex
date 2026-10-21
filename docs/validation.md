@@ -32,34 +32,17 @@ An operation receipt records parameters, time, plugin version, project.godot has
 
 Lost or timed-out mutation responses require reconciliation through document state and files. The Pixelorama request cache is bounded and in-memory. It is not a durable transaction across calls.
 
-## Initial validation record
+## Running checks
 
-Native validation was performed on Windows with Godot 4.6.3, Pixelorama 1.1.10-stable/API 8, and Node 24.15.0. The configured full Node suite passed 11 tests without skips. The opt-in native Pixelorama suite passed 18 bridge commands plus an actual MCP stdio proxy/image/receipt check. Its private application copy used isolated preferences and documents.
+```powershell
+npm run validate
+npm test
+```
 
-A separate read-only skill trial handled a prompt-only request for a freely placed prop without operating apps, writing files, selecting an unrequested canvas, or assigning an unrequested palette. This is one bounded behavioral observation, not a broad evaluation of every skill or game genre.
+Portable Node tests run without Godot or Pixelorama. Native integration tests
+require explicit local application paths; see the
+[integration lab](../examples/neutral-lab/README.md) and the
+[Pixelorama native checks](pixelorama.md#native-verification).
 
-Local evidence is kept under ignored `.local/` test directories. It is not included in source publication. Portable Node tests can run without native applications; native tests explicitly skip or require opt-in when prerequisites are absent. The CI file is a configuration, not evidence that a hosted run has occurred.
-
-Interactive Codex Desktop plugin installation, other native operating systems, other app versions, complex Pixelorama effects, and persistent editor sessions are not certified by these checks.
-
-## PixWeft showcase and workflow update
-
-The updated configured Node suite passed **12 tests, zero failures, zero skips**,
-including real Godot input and rendered captures. The original Pixelorama native
-suite passed **18 commands** and its stdio MCP image/receipt checks. Focused
-native validation passed **26 commands** for sheet import, FPS, exact RGBA,
-bounded detail previews, and opening a source from an empty document.
-
-Each of the **ten final showcase PXO files** opened in a separate fresh private
-Pixelorama process and reproduced its public PNG sheet as identical decoded
-RGBA. Public export-path metadata was cleared without changing non-metadata ZIP
-payloads. Final source hashes and this bounded evidence are in the
-[source verification record](../examples/showcase/sources/source-verification.json).
-
-The final sheets were imported into Godot with nearest filtering. Stdio MCP
-measurements and rendered playback observed all source frames for all ten
-animations. A real capture, current asset hashes, timings, production methods,
-and limitations are in [the showcase](../examples/showcase/README.md). Palette,
-canvas, action, and subject choices stay inside that example. Pixelorama detail
-inspection and actual repairs to the office worker's eyes demonstrate the
-review-and-repair path; numeric measurements alone did not resolve that issue.
+Local reports and isolated application profiles stay in ignored `.local/`
+directories. Check the current files and environment when reproducing a result.

@@ -101,7 +101,7 @@
   </tr>
 </table>
 
-Explore different art directions with PixWeft. Find editable sources, sprite sheets, prompts, and production notes in [the showcase](examples/showcase/README.md).
+Explore different art directions with PixWeft.
 
 Choose your game's style, camera, canvas, palette, and map structure. PixWeft works with TileMaps, freely placed scenes, layered backgrounds, reusable modules, or a mixture.
 
